@@ -1,0 +1,43 @@
+version: "3.1"
+
+nlu:
+  - intent: purchase
+    examples: |
+      - I want to buy your policy.
+      - I want to purchase a property insurance policy from your organization.
+      - How can I purchase vehicle insurance?
+      - What is the process to buy motor insurance?
+      - How can a person take medical insurance?
+      - I want new health insurance.
+      - I would like to get a new insurance.
+      - I want to book agriculture insurance.   
+
+      - Please provide me the insurance purchase [form](document).
+      - How can i fill up the [form](document) to buy a vehicle insurance?
+      - Can you provide me some [form](document) to purchase a policy?
+      - where can i find the insurance purchase [form](document)?
+
+      - What are the provisions for buying a policy [online](payment_method)? Can I complete the entire process digitally?
+      - Tell me about the provisions for buying a policy [online](payment_method).
+      - I live abroad. Can I buy a policy [online](payment_method)?
+      - get policy [online](payment_method)
+      - I want to apply [online](payment_method) for life insurance. Can I do that?
+
+  - intent: renew
+    examples: |
+      - I want to renew my house insurance.
+      - How can I renew my motorbike insurance?
+      - renew my health insurance policy
+      - what is the renewal process?
+      - renew
+      - policy renew
+      - i have to renew my motor insurance
+      - insurance of my car is going to expire, i need to renew. How can i do that?
+      - renew my property insurance
+      - my policy has expired, is there provision to renew my policy online?
+      - how can i renew my expired policy?
+      - can i renew my medical insurance policy?
+      - how can i renew my non motor insurance?
+      - please explain me the renewal process
+      - medical insurance policy renewal 
+      - how can i renew the insurance of my car?

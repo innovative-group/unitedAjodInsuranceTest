@@ -1,0 +1,653 @@
+{
+    "bikeComprehensive": {
+        "type": "formMessageSection",
+        "exitMSG": "Oops !! you quitted midway during requesting for Bike comprehensive premium calculation..",
+        "Mailcatagories": "Others",
+        "emailsubject": "Bike Comprehensive Premium Calculation",
+        "emailTitle": "wants to calculate bike comprehensive premium calculation.",
+        "thirdparty": false,
+        "multipart": false,
+        "form": {
+          "elements": [
+            {
+              "order": "button",
+              "title": "Please specify the CC of Motorcycle? ",
+              "utterances": [
+                {
+                  "message": "We would like to get some information for calculation to begin."
+                }
+              ],
+              "type": "button",
+              "button": [
+                {
+                  "title": "Less than 150",
+                  "payload": "Less than 150"
+                },
+                {
+                  "title": "150-250",
+                  "payload": "150-250"
+                },
+                {
+                  "title": "Above 250",
+                  "payload": "Above 250"
+                }
+              ],
+              "label": "cc"
+            },
+            {
+              "order": "number",
+              "title": "Please specify the value of Motorcycle in Rs? eg 135000, 100000",
+              "type": "countnumber",
+              "placeholder": "Type here",
+              "validation": {
+                "validation": false,
+                "validrejex": "^{2}$",
+                "error": "Please enter valid price"
+              },
+              "label": "moter_value"
+            },
+            {
+              "order": "number",
+              "title": "How old is your Motorcycle in years? New Motorcycle is 0 years",
+              "type": "countnumber",
+              "placeholder": "How old is your Motorcycle  in years",
+              "validation": {
+                "validation": false,
+                "validrejex": "^{2}$",
+                "error": "Please enter valid only"
+              },
+              "label": "old"
+            },
+            {
+              "order": "button",
+              "title": "* This covers you for any kind of loss or damage to your vehicle due to accidents, fire, theft, natural calamities, etc. It also includes bodily injuries to the owner and not the third-party",
+              "utterances": [
+                {
+                  "message": "Specify amount for own damage cover"
+                }
+              ],
+              "type": "button",
+              "button": [
+                {
+                  "title": "500",
+                  "payload": 500
+                },
+                {
+                  "title": "1000",
+                  "payload": 1000
+                },
+                {
+                  "title": "2000",
+                  "payload": 2000
+                }
+              ],
+              "label": "excess_cover"
+            },
+            {
+              "order": "number",
+              "title": "*What is no claim bonus(NCB)?For every year you have vehicle insurance and don't make a claim, you'll get a discount on the following year's premium",
+              "utterances": [
+                {
+                  "message": "When was the last time you made a claim (in years)? "
+                }
+              ],
+              "type": "countnumber",
+              "placeholder": "Type here",
+              "validation": {
+                "validation": false,
+                "validrejex": "^{2}$",
+                "error": "maximum 2 digit like 1 or 11"
+              },
+              "label": "claim"
+            },
+            {
+              "order": "button",
+              "title": "Do you need RSD/Terrorism cover ?",
+              "type": "button",
+              "button": [
+                {
+                  "title": "Yes",
+                  "payload": true
+                },
+                {
+                  "title": "No",
+                  "payload": false
+                }
+              ],
+              "label": "rsd"
+            },
+            {
+              "order": "button",
+              "title": "Do you need direct discount?",
+              "type": "button",
+              "button": [
+                {
+                  "title": "Yes",
+                  "payload": true
+                },
+                {
+                  "title": "No",
+                  "payload": false
+                }
+              ],
+              "label": "directDiscount"
+            },
+            {
+              "order": "cancel",
+              "title": " Do you want to submit your information ?",
+              "type": "submitbutton",
+              "placeholder": "submit",
+              "button": [
+                {
+                  "submit": "Submit",
+                  "type": "submit"
+                },
+                {
+                  "submit": "Cancel",
+                  "type": "cancel"
+                }
+              ]
+            }
+          ]
+        },
+        "post": "/rest/v1/calculation/bikecalculation"
+      }, 
+
+
+      "bikeThirdParty": {
+        "type": "formMessageSection",
+        "exitMSG": "Oops !! you quitted midway during requesting to insure your bike for third party plan.",
+        "Mailcatagories": "Others",
+        "emailsubject": "wants to insure bike for third party plan",
+        "emailTitle": "Bike Insure Request For Third Party Plan",
+        "thirdparty": true,
+        "multipart": false,
+        "form": {
+    
+          "elements": [
+            {
+              "order": "button",
+              "title": "Please specify the CC of Motorcycle? ",
+              "utterances": [
+                {
+                  "message": "We would like to get some information for calculation to begin."
+                }
+              ],
+              "type": "button",
+              "button": [
+                {
+                  "title": "Less than 150",
+                  "payload": "Less than 150"
+                },
+                {
+                  "title": "150-250",
+                  "payload": "150-250"
+                },
+                {
+                  "title": "Above 250",
+                  "payload": "Above 250"
+                }
+              ],
+              "label": "cc"
+            },
+            {
+              "order": "number",
+              "title": "How old is your Motorcycle  in years? New Motorcycle  is 0 years",
+              "type": "countnumber",
+              "placeholder": "How old is your Motorcycle  in years",
+              "validation": {
+                "validation": false,
+                "validrejex": "^{2}$",
+                "error": "Please enter valid only"
+              },
+              "label": "old"
+            },
+            {
+              "order": "number",
+              "title": "*Do you know your claim history also affects your premium amount. Lesser claims more discounts.",
+              "utterances": [
+                {
+                  "message": "How many claims have you made in last years? If 'none' type '0' "
+                }
+              ],
+              "type": "countnumber",
+              "placeholder": "Type here",
+              "validation": {
+                "validation": false,
+                "validrejex": "^{2}$",
+                "error": "maximum 2 digit like 1 or 11"
+              },
+              "label": "claim"
+            },
+            {
+              "order": "button",
+              "title": "When was the last time you made a claim (in years)?",
+              "type": "button",
+              "button": [
+                {
+                  "title": "No Claim",
+                  "payload": 0
+                },
+                {
+                  "title": "This yr",
+                  "payload": 0
+                },
+                {
+                  "title": "Last yr",
+                  "payload": 1
+                },
+                {
+                  "title": "2 yr ago",
+                  "payload": 2
+                },
+                {
+                  "title": "3 yr ago",
+                  "payload": 3
+                },
+                {
+                  "title": "4 yr ago",
+                  "payload": 4
+                },
+                {
+                  "title": "More than 4 yr",
+                  "payload": 5
+                }
+              ],
+              "label": "age_y"
+            },
+            {
+              "order": "cancel",
+              "title": " Do you want to submit your information ?",
+              "type": "submitbutton",
+              "placeholder": "submit",
+              "button": [
+                {
+                  "submit": "Submit",
+                  "type": "submit"
+                },
+                {
+                  "submit": "Cancel",
+                  "type": "cancel"
+                }
+              ]
+            }
+          ]
+        },
+        "post": "/rest/v1/calculation/bikecalculation"
+      },
+
+
+    "privateVehicleComprehensive": {
+        "type": "formMessageSection",
+        "exitMSG": "Oops !! you quitted midway during requesting to insure your private vehicle for comprehensive plan.",
+        "Mailcatagories": "Others",
+        "emailsubject": "wants to insure private vehicle for comprehensive plan",
+        "emailTitle": "Private Vehicle Insure Request For Comprehensive Plan",
+        "thirdparty": false,
+        "multipart": false,
+        "form": {
+    
+          "elements": [
+            {
+              "order": "button",
+              "title": "Please specify the CC of Vehicle? ",
+              "utterances": [
+                {
+                  "message": "We would like to get some information for calculation to begin."
+                }
+              ],
+              "type": "button",
+              "button": [
+                {
+                  "title": "Less than 1000",
+                  "payload": "Less than 1000 "
+                },
+                {
+                  "title": "1000-1600",
+                  "payload": "1000-1600"
+                },
+                {
+                  "title": "Above 1600",
+                  "payload": "above 1600"
+                }
+              ],
+              "label": "cc"
+            },
+            {
+              "order": "number",
+              "title": "What value you want to insure for vehicle ? eg 2500000",
+              "type": "countnumber",
+              "placeholder": "Type here",
+              "validation": {
+                "validation": false,
+                "validrejex": "^{2}$",
+                "error": "maximum 2 digit like 1 or 11"
+              },
+              "label": "moter_value"
+            },
+            {
+              "order": "number",
+              "title": "How old is your vehicle in years? New vehicle is 0 years",
+              "type": "countnumber",
+              "placeholder": "How old is your vehicle in years",
+              "validation": {
+                "validation": false,
+                "validrejex": "^{2}$",
+                "error": "maximum 2 digit like 1 or 11"
+              },
+              "label": "old"
+            },
+            {
+              "order": "button",
+              "title": "I use vehicle for",
+              "type": "button",
+              "button": [
+                {
+                  "title": "Private",
+                  "payload": false
+                },
+                {
+                  "title": "Rent",
+                  "payload": true
+                }
+              ],
+              "label": "rent"
+            },
+            {
+              "order": "button",
+              "title": "Number of seats in vehicle",
+              "type": "button",
+              "button": [
+                {
+                  "title": "3",
+                  "payload": 3
+                },
+                {
+                  "title": "5",
+                  "payload": 5
+                },
+                {
+                  "title": "8",
+                  "payload": 8
+                },
+                {
+                  "title": "10",
+                  "payload": 10
+                }
+              ],
+              "label": "seats"
+            },
+            {
+              "order": "button",
+              "title": "Do you want to insure for Driver ? If no type No, else type insured value",
+              "type": "button",
+              "button": [
+                {
+                  "title": "Yes, I do",
+                  "payload": true
+                },
+                {
+                  "title": "No, I don't",
+                  "payload": false
+                }
+              ],
+              "label": "isDriver"
+            },
+            {
+              "order": "button",
+              "title": "Do you want to insure for passengers ? If no type No, else type insured value for passenger",
+              "type": "button",
+              "button": [
+                {
+                  "title": "Yes, I do",
+                  "payload": true
+                },
+                {
+                  "title": "No, I don't",
+                  "payload": false
+                }
+              ],
+              "label": "isPatient"
+            },
+            {
+              "order": "button",
+              "title": " * This covers you for any kind of loss or damage to your vehicle due to accidents, fire, theft, natural calamities, etc. It also includes bodily injuries to the owner and not the third-party",
+              "utterances": [
+                {
+                  "message": " Specify Voluntary Excess Amount for own damage cover"
+                }
+              ],
+              "type": "button",
+              "button": [
+                {
+                  "title": "1000",
+                  "payload": 1000
+                },
+                {
+                  "title": "2000",
+                  "payload": 2000
+                },
+                {
+                  "title": "5000",
+                  "payload": 5000
+                },
+                {
+                  "title": "10000",
+                  "payload": 10000
+                }
+              ],
+              "label": "excess_cover"
+            },
+            {
+              "order": "number",
+              "title": "*What is no claim bonus(NCB)? For every year you have vehicle insurance and don't make a claim, you'll get a discount on the following year's premium",
+              "utterances": [
+                {
+                  "message": "When was the last time you made a claim (in years)? If none type '0' "
+                }
+              ],
+              "type": "countnumber",
+              "placeholder": "Type here",
+              "validation": {
+                "validation": false,
+                "validrejex": "^{2}$",
+                "error": "maximum 2 digit like 1 or 11"
+              },
+              "label": "claim"
+            },
+            {
+              "order": "button",
+              "title": "Do you need towing service after accident?",
+              "type": "button",
+              "button": [
+                {
+                  "title": "Yes",
+                  "payload": true
+                },
+                {
+                  "title": "No",
+                  "payload": false
+                }
+              ],
+              "label": "towing"
+            },
+            {
+              "order": "button",
+              "title": "Do you need RSD/Terrorism cover ?",
+              "type": "button",
+              "button": [
+                {
+                  "title": "Yes",
+                  "payload": true
+                },
+                {
+                  "title": "No",
+                  "payload": false
+                }
+              ],
+              "label": "rsd"
+            },
+            {
+              "order": "button",
+              "title": "Do you need direct discount?",
+              "type": "button",
+              "button": [
+                {
+                  "title": "Yes",
+                  "payload": true
+                },
+                {
+                  "title": "No",
+                  "payload": false
+                }
+              ],
+              "label": "directDiscount"
+            },
+            {
+              "order": "cancel",
+              "title": " Do you want to submit your information ?",
+              "type": "submitbutton",
+              "placeholder": "Enter your email",
+              "button": [
+                {
+                  "submit": "Submit",
+                  "type": "submit"
+                },
+                {
+                  "submit": "Cancel",
+                  "type": "cancel"
+                }
+              ]
+            }
+          ]
+        },
+        "post": "/rest/v1/calculation/privatevehicle"
+      },
+
+      "privateVehicleThirdParty": {
+        "type": "formMessageSection",
+        "exitMSG": "Oops !! you quitted midway during requesting to insure your private vehicle for third party plan..",
+        "Mailcatagories": "Others",
+        "emailsubject": "wants to insure private vehicle for third party plan",
+        "emailTitle": "Private Vehicle Insure Request For Third Party Plan",
+        "thirdparty": true,
+        "multipart": false,
+        "form": {
+    
+          "elements": [
+            {
+              "order": "button",
+              "title": "Please specify the CC of Vehicle?",
+              "utterances": [
+                {
+                  "message": "We would like to get some information for calculation to begin."
+                }
+              ],
+              "type": "button",
+              "button": [
+                {
+                  "title": "Less than 1000",
+                  "payload": "Less than 1000 "
+                },
+                {
+                  "title": "1000-1600",
+                  "payload": "1000-1600"
+                },
+                {
+                  "title": "Above 1600",
+                  "payload": "above 1600"
+                }
+              ],
+              "label": "cc"
+            },
+            {
+              "order": "number",
+              "title": "How old is your vehicle in years? New vehicle is 0 years",
+              "type": "countnumber",
+              "placeholder": "How old is your vehicle in years",
+              "validation": {
+                "validation": false,
+                "validrejex": "^{2}$",
+                "error": "maximum 2 digit like 1 or 11"
+              },
+              "label": "old"
+            },
+            {
+              "order": "number",
+              "title": "* Do you know your claim history also affects your premium amount. Lesser claims more discounts.",
+              "utterances": [
+                {
+                  "message": "How many claims have you made in last years? If 'none' type '0' "
+                }
+              ],
+              "type": "countnumber",
+              "placeholder": "Type here",
+              "validation": {
+                "validation": false,
+                "validrejex": "^{2}$",
+                "error": "maximum 2 digit like 1 or 11"
+              },
+              "label": "claim"
+            },
+            {
+              "order": "button",
+              "title": "When was the last time you made a claim (in years)?",
+              "type": "button",
+              "button": [
+                {
+                  "title": "No Claim",
+                  "payload": 0
+                },
+                {
+                  "title": "This yr",
+                  "payload": 0
+                },
+                {
+                  "title": "Last yr",
+                  "payload": 1
+                },
+                {
+                  "title": "2 yr ago",
+                  "payload": 2
+                },
+                {
+                  "title": "3 yr ago",
+                  "payload": 3
+                },
+                {
+                  "title": "4 yr ago",
+                  "payload": 4
+                },
+                {
+                  "title": "More than 4 yr",
+                  "payload": 5
+                }
+              ],
+              "label": "age_y"
+            },
+            {
+              "order": "cancel",
+              "title": " Do you want to submit your information ?",
+              "type": "submitbutton",
+              "placeholder": "Enter your email",
+              "button": [
+                {
+                  "submit": "Submit",
+                  "type": "submit"
+                },
+                {
+                  "submit": "Cancel",
+                  "type": "cancel"
+                }
+              ]
+            }
+          ]
+        },
+        "post": "/rest/v1/calculation/privatevehicle"
+      }
+
+
+
+
+
+}

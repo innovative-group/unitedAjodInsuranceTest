@@ -1,0 +1,60 @@
+{
+    "menu": {
+        "title": "Hello world",
+        "type": "hamburger",
+        "welcomeImage": "images/menu/logo.png",
+        "descriptionEnglish": "Namaste, I am Your Virtual Assistant. How may I help you?",
+        "descriptionNepali": "नमस्ते, म (युनाईटेड अजोड च्याटबोट) तपाईको स्वचालित सहायक | म तपाईलाई कसरी सहयोग गर्न सक्छु |",
+        "data": [
+          {
+            "title": "Products",
+            "payload": "Products",
+            "icon": "images/menu/product.png"
+          },
+          {
+            "title": "Policy Services",
+            "payload": "Policy Services",
+            "icon": "images/menu/policy.png"
+          },
+    
+          {
+            "title": "Purchase / Renew",
+            "payload": "Purchase / Renew",
+            "icon": "images/menu/purchaseandrenew.png"
+          },
+          {
+            "title": "Claim",
+            "payload": "Claim",
+            "icon": "images/menu/claim.png"
+          },
+          {
+            "title": "Branch",
+            "payload": "Branch",
+            "icon": "images/menu/location.png"
+          },
+          {
+            "title": "Payment",
+            "payload": "Payment",
+            "icon": "images/menu/payment.png"
+          },
+          {
+            "title": "Premium Calculator",
+            "payload": "Calculation",
+            "icon": "images/menu/calculator.png"
+          },
+          {
+            "title": "Complaint",
+            "payload": "Complaint",
+            "icon": "images/menu/complaint.png"
+          },
+          {
+            "title": "Feedback",
+            "payload": "Feedback",
+            "icon": "images/menu/feedback.png"
+          }
+    
+    
+        ]
+      }
+}
+

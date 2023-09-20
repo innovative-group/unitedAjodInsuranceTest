@@ -1,0 +1,21 @@
+version: "3.1"
+
+nlu:
+  - intent: office_time
+    examples: |
+      - At which time office opens?
+      - At which time does the office gets closed?
+      - How many days a week does your office is open?
+      - office closing days
+      - office opening days
+      - Is your office open on weekends?
+      - office opening time
+      - office closing time
+      - when does your office opens?
+      - your office time please?
+
+      - What is your opening hours?
+      - what time do you open?
+      - Opening hours
+      - what time are you going to close today?
+      - office time

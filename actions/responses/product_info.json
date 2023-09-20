@@ -1,0 +1,293 @@
+    {
+        "property": {
+            "type": "detailDrawer",
+            "subType": "free-accounts",
+            "title": "Details of property insurance are as follows. To purchase this insurance please click on I am interested button.",
+            "data": [
+              {
+        
+                "title": "Property Insurance",
+                "subtitle": "Property Insurance Policy is a comprehensive policy that covers property such as Buildings, Fac...",
+                "img": "images/menu/1.jpeg",
+                "button": {
+                  "contents": [
+                    {
+                      "title": "View Details",
+                      "id": "btn1",
+                      "Back_icon": {
+                        "title": "I am Interested",
+                        "payload": "/purchase{\"document\":\"form\"}"
+                      },
+                      "Details": {
+                        "interest": "Property Insurance",
+                        "title": "Details of Property Insurance",
+                        "subtitle": "",
+                        "paragraph": "Property Insurance Policy is a comprehensive policy that covers properties such as Buildings, Factories, Shop, stocks, Showrooms, Hospitals, and other forms of assets against natural perils such as Fire and lightening related, Storm-related, Water-related, Land related, Subsidence related, Explosion related, Riot, Strike &Terrorism related risks.</br>UAIL  Property insurance provides protection against most risks to property, such as fire, theft, and some damages due to natural calamities. This includes specialized forms of insurance such as: </br>Any strong building can collapse just within a few secs and there's nothing we would be able to do about it. People around us would only watch the creation of our hard work crumble whatever the reason may be. Friends and Families are always there when the time is good but only the Insurance Company will be there when the time goes wrong. Therefore, in order to reduce your stress and secure you from all the financial burden, we introduce Sampati Bima.",
+        
+                        "button": {
+                          "contents": [
+                            {
+                              "title": "I want to Purchase",
+                              "payload": "I want to Purchase"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+        
+          "motor": {
+            "type": "detailDrawer",
+            "subType": "free-accounts",
+            "title": "Details of motor insurance are as follows. To purchase this insurance please click on I am interested button.",
+            "data": [
+              {
+        
+                "title": "Motor Insurance",
+                "subtitle": "The only thing certain in life is uncertainty. The future is full of uncertainties and one can...",
+                "img": "images/menu/2.1.jpeg",
+                "button": {
+                  "contents": [
+                    {
+                      "title": "View Details",
+                      "id": "btn1",
+                      "Back_icon": {
+                        "title": "I am Interested",
+                        "payload": "/purchase{\"document\":\"form\"}"
+                      },
+                      "Details": {
+                        "interest": "Motor Insurance",
+                        "title": "Details of Motor Insurance",
+                        "subtitle": "",
+                        "paragraph": "The only thing certain in life is uncertainty. The future is full of uncertainties and one can never be certain of what the future holds for us. Even with enough precautions and preventions, accidents and financial loss cannot be omitted at times that can result in life-changing misfortune to oneself and others. As of a recent tragic incident, an earthquake shook the nation where many lives were lost and the financial burden came upon the innocent people. With the growth of infrastructure and development, the risks have also increased at an alarming rate. </br> Taking into consideration, the ever adding number of vehicles in the congested roads of our country, the chances of accidents and damage to one’s vehicle is almost inevitable and beyond the control of oneself. Each day uncountable accidents occur around the nation causing loss of lives and huge financial loss.",
+        
+                        "button": {
+                          "contents": [
+                            {
+                              "title": "I want to Purchase",
+                              "payload": "I want to Purchase"
+                            },
+                            {
+                              "title": "Premium Calculation",
+                              "payload": "Calculation"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+        
+          "marine": {
+            "type": "detailDrawer",
+            "subType": "free-accounts",
+            "title": "Details of marine insurance are as follows. To purchase this insurance please click on I am interested button.",
+            "data": [
+              {
+        
+                "title": "Marine Insurance",
+                "subtitle": "Your cargo is exposed to a wide range of risks whilst in transit. Accidents, damage by water or...",
+                "img": "images/menu/3.jpeg",
+                "button": {
+                  "contents": [
+                    {
+                      "title": "View Details",
+                      "id": "btn1",
+                      "Back_icon": {
+                        "title": "I am Interested",
+                        "payload": "/purchase{\"document\":\"form\"}"
+                      },
+                      "Details": {
+                        "interest": "Marine Insurance",
+                        "title": "Details of Marine Insurance",
+                        "subtitle": "",
+                        "paragraph": "Your cargo is exposed to a wide range of risks whilst in transit. Accidents, damage by water or fire, improper stowage by the carrier, and theft or pilferage are all potential risks to your cargo. Marine insurance covers the losses or damages caused to ships, terminals, and any transport or cargo by which goods are transferred, acquired, or held between different points of origin and final destination.</br>UAIL  Marine Insurance policy offers complete insurance coverage for your goods while in transit. Marine insurance is a haven for transporters and shipping corporations because it helps to lower the aspect of financial loss due to cargo loss. It covers transit by any modes of transit like sea transit, inland waterways, land transit by road/rail vehicle, and transit by air. The scope of cover depends upon the type of clauses attached to the policy.",
+        
+                        "button": {
+                          "contents": [
+                            {
+                              "title": "I want to Purchase",
+                              "payload": "I want to Purchase"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+        
+          "miscellaneous": {
+            "type": "detailDrawer",
+            "subType": "free-accounts",
+            "title": "Details of miscellaneous insurance are as follows. To purchase this insurance please click on I am interested button.",
+            "data": [
+              {
+        
+                "title": "Miscellaneous Insurance",
+                "subtitle": "It includes a variety of risks such like personal accident insurance, fidelity insurance; travel...",
+                "img": "images/menu/4.1.jpeg",
+                "button": {
+                  "contents": [
+                    {
+                      "title": "View Details",
+                      "id": "btn1",
+                      "Back_icon": {
+                        "title": "I am Interested",
+                        "payload": "/purchase{\"document\":\"form\"}d"
+                      },
+                      "Details": {
+                        "interest": "Miscellaneous Insurance",
+                        "title": "Details of Miscellaneous Insurance",
+                        "subtitle": "",
+                        "paragraph": "It includes a variety of risks such like personal accident insurance, fidelity insurance; travel medical insurance, burglary and housebreaking, group personal accident, cash in transit, money insurance, bankers blanket indemnity, professional indemnity, general public liability, product liability, medical insurance ( hospitalization), All risks, workmen compensation and personal accident for trekking(expedition).",
+        
+        
+                        "button": {
+                          "contents": [
+                            {
+                              "title": "I want to Purchase",
+                              "payload": "I want to Purchase"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+        
+          "travelMedical": {
+            "type": "detailDrawer",
+            "subType": "free-accounts",
+            "title": "Details of travel medical insurance are as follows. To purchase this insurance please click on I am interested button.",
+            "data": [
+              {
+        
+                "title": "Travel Medical Insurance",
+                "subtitle": "A person's life is exposed to different kinds of risks and emergencies relating to...",
+                "img": "images/menu/5.jpeg",
+                "button": {
+                  "contents": [
+                    {
+                      "title": "View Details",
+                      "id": "btn1",
+                      "Back_icon": {
+                        "title": "I am Interested",
+                        "payload": "/purchase{\"document\":\"form\"}"
+                      },
+                      "Details": {
+                        "interest": "Travel Medical Insurance",
+                        "title": "Details of Travel Medical Insurance",
+                        "subtitle": "",
+                        "paragraph": "A person’s life is exposed to different kinds of risks and emergencies relating to his/her health. One can fall sick or suffer from unexpected medical emergencies anytime. Plus, for someone leaving his/her country for a business purpose, studying, or for other purposes, it becomes unbearable as the financial burden in a foreign land can be too expensive to cope with. Medical and Emergency expenses in many European and Western countries are very expensive. Not only risks associated with health but financial losses like loss of baggage, delay of baggage, loss of passport, delay of travel, etc. can disrupt the planned trip of our valued customers adding extra burden when traveling.</br>UAIL Travel Medical Insurance provides you a genuine & absolute cover while you are traveling around the world. This policy covers medical emergency, accidents, or personal liability to the person leaving his/her home country or whilst traveling around the globe. UIC assures you to provide a reliable cover against any sudden illness, accident, or injury to the insured when traveling. Let us take responsibility for the risk and maintain a stress-free and happy journey for you.",
+                        "button": {
+                          "contents": [
+                            {
+                              "title": "I want to Purchase",
+                              "payload": "I want to Purchase"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+        
+          "engineering": {
+            "type": "detailDrawer",
+            "subType": "free-accounts",
+            "title": "Details of engineering insurance are as follows. To purchase this insurance please click on I am interested button.",
+            "data": [
+              {
+        
+                "title": "Engineering Insurance",
+                "subtitle": "This kind of insurance is the ideal cover loss or damages to different kind of construction pr...",
+                "img": "images/menu/6.1.jpeg",
+                "button": {
+                  "contents": [
+                    {
+                      "title": "View Details",
+                      "id": "btn1",
+                      "Back_icon": {
+                        "title": "I am Interested",
+                        "payload": "/purchase{\"document\":\"form\"}"
+                      },
+                      "Details": {
+                        "interest": "Engineering Insurance",
+                        "title": "Details of Engineering Insurance",
+                        "subtitle": "",
+                        "paragraph": "This kind of insurance is the ideal cover Loss or Damages to different kinds of construction projects such as buildings, roads, bridges & other civil constructions. This Policy covers the policyholder against any unforeseen and unexpected physical loss or damage from any cause. It also provides full coverage protections against risk related with an erection all risk, contractors all risk, working of any machinery, plant or equipment, electronic equipment, machinery break down, boiler/ pressure plant insurance, Marine cum erection, loss of profit(machinery), contractor all risk, etc.",
+        
+        
+                        "button": {
+                          "contents": [
+                            {
+                              "title": "I want to Purchase",
+                              "payload": "I want to Purchase"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+        
+          "agriculture": {
+            "type": "detailDrawer",
+            "subType": "free-accounts",
+            "title": "Details of agriculture insurance are as follows. To purchase this insurance please click on I am interested button.",
+            "data": [
+              {
+        
+                "title": "Agriculture Insurance",
+                "subtitle": "Agriculture Finance Institutions have been focusing on providing savings and credit services on...",
+                "img": "images/menu/7.jpeg",
+                "button": {
+                  "contents": [
+                    {
+                      "title": "View Details",
+                      "id": "btn1",
+                      "Back_icon": {
+                        "title": "I am Interested",
+                        "payload": "/purchase{\"document\":\"form\"}"
+                      },
+                      "Details": {
+                        "interest": "Agriculture Insurance",
+                        "title": "Details of Agriculture Insurance",
+                        "subtitle": "",
+                        "paragraph": "Agriculture Finance Institutions have been focusing on providing savings and credit services only. However, a growing number of Mirco Finance Institutions practitioners have recognized that providing credit is not enough for the sustainable development of the poor.</br>A heartfelt requirement for other financial activities like insurance and allied services alongside savings and credit services has been noticed. Formal insurance services are not accessible to the poor because of high premiums and complicated procedures.</br>The poor in Nepal like any other less-developed countries are vulnerable to different types of risks and adopt various strategies to reduce the impact of the loss. Insurance services are very essential for low-income households to cope with uncertainties and emergencies like illness or injury, death, natural disasters, theft, and life cycle needs.</br>Agriculture-insurance helps the poor combat the vulnerability caused by exposure to such unacceptable risks. By pooling into a risk fund to mitigate stipulated perils like illness, loss of assets, death, and widowhood, the poor can protect themselves from unexpected loss. Thus, the Insurance of lives and livelihoods is important for the risk-prone economic life of the poor",
+        
+                        "button": {
+                          "contents": [
+                            {
+                              "title": "I want to Purchase",
+                              "payload": "I want to Purchase"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+    }

@@ -1,0 +1,213 @@
+{
+    "claim_status": {
+        "type": "formMessageSection",
+        "exitMSG": "Oops !! you quitted midway during requesting Claim Status.",
+        "Mailcatagories": "Claim",
+        "emailsubject": "wants to check Claim Status",
+        "lastContactText": "or you can contact our representative Mr. (.......) by calling (.....), Also you can send mail at (.....)",
+        "multipart": false,
+        "emailTitle": "Request for Claim Status",
+        "form": {
+            "elements": [
+                {
+                    "order": "text",
+                    "title": "Your Full Name Please ?",
+                    "type": "textbox",
+                    "placeholder": "Please Type Your Full Name",
+                    "utterances": [
+                        {
+                            "message": "Please provide your details to check your claim status."
+                        }
+                    ],
+                    "validation": {
+                        "type": "name",
+                        "error": "Please enter valid Full Name."
+                    },
+                    "label": "name"
+                },
+                {
+                    "order": "text",
+                    "title": "What is your Claim Number ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Your Claim Number",
+                    "validation": {
+                        "type": "ClaimNumber"
+                    },
+                    "label": "claimNumber"
+                },
+                {
+                    "order": "number",
+                    "title": "Your mobile number please ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Your mobile Number",
+                    "validation": {
+                        "type": "mobile",
+                        "error": "Invalid!! Provide 10 digit number"
+                    },
+                    "label": "mobile"
+                },
+                {
+                    "order": "text",
+                    "title": "Please specify your date of loss.",
+                    "placeholder": "Please Enter date of loss",
+                    "type": "date",
+                    "label": "DateOfBirth"
+                },
+                {
+                    "order": "cancle",
+                    "title": " Do you want to submit your information ?",
+                    "type": "submitbutton",
+                    "placeholder": "Enter your email",
+                    "button": [
+                        {
+                            "submit": "Submit",
+                            "type": "submit"
+                        },
+                        {
+                            "submit": "Cancel",
+                            "type": "cancel"
+                        }
+                    ]
+                }
+            ]
+        },
+        "post": "rest/v1/siddartha/Policy/GetClaimDetails"
+    },
+    "file_a_claim": {
+        "type": "formMessageSection",
+        "exitMSG": "Oops !! you quitted midway while making claim.",
+        "Mailcatagories": "Claim",
+        "emailsubject": "wants to make a claim",
+        "emailTitle": "Request For Claim Settlement",
+        "lastContactText": "or you can contact our representative Mr. (........) by calling (......), Also you can send mail at (........)",
+        "multipart": true,
+        "form": {
+            "elements": [
+                {
+                    "order": "text",
+                    "title": "Your Full Name Please ?",
+                    "type": "textbox",
+                    "placeholder": "Please Type Your Full Name",
+                    "utterances": [
+                        {
+                            "message": "Please provide the details asked below to report a claim."
+                        }
+                    ],
+                    "validation": {
+                        "type": "name",
+                        "error": "Doesn't Look like a valid name. Please specify valid name"
+                    },
+                    "label": "name"
+                },
+                {
+                    "order": "text",
+                    "title": "What is your Policy Number ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Your Policy Number",
+                    "validation": {
+                        "type": "PolicyNumber",
+                        "error": "Policy Number is required."
+                    },
+                    "label": "PolicyNumber"
+                },
+                {
+                    "order": "text",
+                    "title": "What is your Vehicle Number ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Your Vehicle Number",
+                    "validation": {
+                        "type": "VehicleNumber",
+                        "error": "Vehicle Number is required."
+                    },
+                    "label": "VehicleNumber"
+                },
+                {
+                    "order": "number",
+                    "title": "Your mobile number please ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Your mobile Number",
+                    "validation": {
+                        "type": "mobile",
+                        "error": "Invalid!! Provide 10 digit number"
+                    },
+                    "label": "mobile"
+                },
+                {
+                    "order": "email",
+                    "title": "Provide us your Email",
+                    "type": "textbox",
+                    "placeholder": "Enter your Email",
+                    "validation": {
+                        "type": "email",
+                        "error": "Invalid email"
+                    },
+                    "label": "email"
+                },
+                {
+                    "order": "text",
+                    "title": "Date of Loss?",
+                    "placeholder": "Please Enter Date Of Loss",
+                    "type": "date",
+                    "label": "DateOfLoss"
+                },
+                {
+                    "order": "text",
+                    "title": "Place of Loss",
+                    "placeholder": "Please Enter Place Of Loss",
+                    "validation": {
+                        "type": "name",
+                        "error": "Doesn't Look like a valid Place. Please specify valid place"
+                    },
+                    "type": "textbox",
+                    "label": "PlaceOfLoss"
+                },
+                {
+                    "order": "number",
+                    "title": "Estimated Loss",
+                    "placeholder": "Please enter estimated loss in digits.",
+                    "validation": {
+                        "type": "EstimatedLoss",
+                        "error": "Estimated cost is required."
+                    },
+                    "type": "textbox",
+                    "label": "EstimatedLoss"
+                },
+                {
+                    "order": "File",
+                    "title": "Please upload a file of required documents: copy of insurance policy, properly filled and signed claim form",
+                    "type": "uploadFile",
+                    "multifile": [
+                        {
+                            "title": "block1 form",
+                            "maxlength": 2,
+                            "accept": "zip",
+                            "id": "firstuploadfile12"
+                        }
+                    ],
+                    "validation": {
+                        "type": "uploadFile",
+                        "error": "Please upload file with zip format"
+                    },
+                    "label": "File"
+                },
+                {
+                    "order": "cancle",
+                    "title": " Please click Submit button to proceed further or Cancel to quit",
+                    "type": "submitbutton",
+                    "placeholder": "Enter your email",
+                    "button": [
+                        {
+                            "submit": "Submit",
+                            "type": "submit"
+                        },
+                        {
+                            "submit": "Cancel",
+                            "type": "cancel"
+                        }
+                    ]
+                }
+            ]
+        },
+        "post": "rest/v1/file/fileupload"
+    }
+}

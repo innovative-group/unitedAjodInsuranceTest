@@ -1,0 +1,56 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: user_info
+  examples: |
+    - [9822335533](number)
+    - This is my phone number [9899771199](number)
+    - Here you go [9866773399](number)
+    - My Phone number is [9855332299](number)
+    - My name is [Sahil](name)
+    - I am [Arjun](name)
+    - People call me [Lakpa](name)
+    - [Pasang](name)
+    - My name is [Suman](name)
+    - I live in [ktm](city)
+    - My city is [lalitput](city)
+    - I am from [pokhara](city)
+    - my city is [btk](city)
+
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+
+
+- intent: inform_ask_partial_data_confirmation
+  examples: |
+    - I don't want to fill this field
+    - No need to fill this field
+    - Skip this field

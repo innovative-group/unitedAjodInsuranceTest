@@ -1,0 +1,309 @@
+{
+    "moneyBackPlan": {
+        "text": "Please find the details below.",
+        "elements": [
+            {
+                "title": "Himalayan Barshik Nagad Firta Jeevan Beema Yojana (Annual Cash Back Policy)",
+                "image_url": "",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=32"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Jeewan Upahar",
+                "image_url": "",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=25"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Life Sulav Money Back",
+                "image_url": "",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=15"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Money Back Cum Whole Life Plan",
+                "image_url": "",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=31"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Life Dhan Sagar",
+                "image_url": "",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=4"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            }
+        ]
+    },
+    "endowmentPlan": {
+        "text": "Please find the details below.",
+        "elements": [
+            {
+                "title": "Himalayan Endowment Cum Whole Life Insurance Plan",
+                "image_url": "",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=29"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Endowment Plan",
+                "image_url": "",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=30"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Shuvalabh",
+                "image_url": "",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=28"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Life Saral Beema",
+                "image_url": "",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=7"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Life Single And Limited Payment",
+                "image_url": "",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=1"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            }
+        ]
+    },
+    "retirementPlan": {
+        "text": "Please find the details below.",
+        "elements": [
+            {
+                "title": "Himalayan Surakshit Bhavisya Jeevan Beema Yojana ( Pension Plan)",
+                "image_url": "",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=33"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            },
+            {
+                "title": "Himalayan Life Pension Plan",
+                "image_url": "",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=10"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            }
+        ]
+    },
+    "term": {
+        "text": "Please find the details below.",
+        "elements": [
+            {
+                "title": "Himalayan Life New Term Assurance",
+                "image_url": "",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=14"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            }
+        ]
+    },
+    "wholeLifePlan": {
+        "text": "Please find the details below.",
+        "elements": [
+            {
+                "title": "Himalayan Life Jeewan Surakshya",
+                "image_url": "",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=5"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            }
+        ]
+    },
+    "womanPlan": {
+        "text": "Please find the details below.",
+        "elements": [
+            {
+                "title": "Himalayan Life Naari Jeewan Beema",
+                "image_url": "",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=3"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            }
+        ]
+    },
+    "childPlan": {
+        "text": "Please find the details below.",
+        "elements": [
+            {
+                "title": "Himalayan Life Swarnim Jeewan Beema",
+                "image_url": "",
+                "subtitle": "Click to view details or calculate the premium.",
+                "buttons": [
+                    {
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Product-Details.aspx?id=2"
+                    },
+                    {
+                        "title": "Premium Calculation",
+                        "type": "web_url",
+                        "url": "https://himalayanlife.com.np/Premium-Calculator.aspx"
+                    }
+                ]
+            }
+        ]
+    }
+}

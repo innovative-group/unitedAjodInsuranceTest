@@ -1,0 +1,241 @@
+{
+    "head_office": {
+        "type": "contact",
+        "title": "Dear customer, you can contact us at:",
+        "backIcon": {
+            "title": "Back",
+            "payload": "menu"
+        },
+        "data": {
+            "Name": "Head-Office",
+            "subtitle": " CTC Mall (7th Floor), Sundhara, Kathmandu",
+            "button": {
+                "title": "Branch Details",
+                "payload": "/contact{\"office_type\":\"branch list\"}"
+            },
+            "info":
+                {
+                    "title": "Email",
+                    "key": "Email",
+                    "value": "info@unitedAjodinsurance.com"
+                },
+                {
+                    "title": "Phone",
+                    "key": "Phone",
+                    "value": "+977-01-5343072"
+                },
+                {
+                    "title": "Fax",
+                    "key": "Fax",
+                    "value": "+977 01 5344013"
+                }
+            ],
+            "map": {
+                "title": "map",
+                "latitude": 27.6933,
+                "longitude": 85.32662
+            },
+            "facebook": [
+                {
+                    "title": "Facebook",
+                    "img": "images/banner/facebook.png",
+                    "link": "https://www.facebook.com/unitedAjod.insurance"
+                },
+                {
+                    "title": "YouTube",
+                    "img": "images/banner/youtube.png",
+                    "link": "https://www.youtube.com/channel/UC88oS2KeViFShKXSP3ta31g"
+                },
+                {
+                    "title": "Twitter",
+                    "img": "images/banner/twitter.png",
+                    "link": "https://twitter.com/UnitedAjodinsu1"
+                }
+            ]
+        }
+    },
+    "branch_office": {
+        "type": "location",
+        "title": "Please type the place or send your current location to get the details about nearest branch.",
+        "for": "branch",
+        "header": "Branch Location",
+        "img": "images/address.png",
+        "backIcon": {
+            "title": "Branch",
+            "payload": "branch"
+        },
+        "subtitle": "Please type the place or send your current location to get the details about nearest branch.",
+        "button": {
+            "contents": [
+                {
+                    "title": "Get Branches Near Me",
+                    "type": "send_location"
+                },
+                {
+                    "title": "Type Location",
+                    "type": "type_location"
+                }
+            ]
+        }
+    },
+    "branch_list": {
+        "type": "detailpolicy",
+        "title": "Following are the branch details of SPIL.",
+        "subtitle": "Branch Details",
+        "for": "bank detail",
+        "cancel_title": "Branches",
+        "payload": "branches",
+        "Headers": [
+            {
+                "Sn": "Sn",
+                "accountName": "Name",
+                "bank": "Address",
+                "branch": "Phone Number",
+                "fax": "fax number"
+           
+            }
+        ],
+        "data": [
+            {
+                "Sn": 1,
+                "Account_Name":     "Biratnagar",
+                "Bank_Name":        "Biratnagar, Golchha Chowk, Morang",
+                "Branch":           "021-573266",
+                "fax":              "021-573266",
+                "AccountNumber":    "biratnagar@unitedajodinsurance.com"
+            },
+
+            {
+                "Sn": 2,
+                "Account_Name": "Biratnagar",
+                "Bank_Name": "Munal Path, Morang",
+                "Branch": "021-590219",
+                "fax": "021-573266",
+                "AccountNumber": "biratnagar2@unitedajodinsurance.com"
+          
+            },
+            {
+                "Sn": 3,
+                "Account_Name": "Biratnagar",
+                "Bank_Name": "Biratnagar Rani Bhansar Counter",
+                "Branch": "9842032950",
+                "fax": "9842032950",
+                "AccountNumber": "prasansha@unitedajodinsurance.com"
+            },
+            {
+                "Sn": 4,
+                "Account_Name": "Birtamod ",
+                "Bank_Name": "Birtamod Mechinagar Municipality-06, Jhapa",
+                "Branch": "9801455960",
+                "fax":   "0",
+                "AccountNumber": "devendra@unitedajodinsurance.com"
+            },
+            {
+                "Sn": 5,
+                "Account_Name": "Birtamod-1",
+                "Bank_Name": "Birtamod Municipality -04, Bhadrapur road, Jhapa",
+                "Branch": "023-590060",
+                "fax": "023-590971",
+                "AccountNumber": "birtamod1@unitedajodinsurance.com"
+            },
+            {
+                "Sn": 6,
+                "Account_Name": "Birtamod-2",
+                "Bank_Name": " Birtamod Municipality -04, (Hanuman Central 4th Floor)",
+                "Branch": "023-532028",
+                "fax": " 023-532028",
+                "AccountNumber": "birtamode@unitedajodinsurance.com"
+            },
+            {
+                "Sn": 7,
+                "Account_Name": "Damak",
+                "Bank_Name": "Damak Municipality-05, Beldangi Road, Jhapa",
+                "Branch": "023-575520",
+                "fax": " 023-575520",
+                "AccountNumber": "damak@unitedajodinsurance.com"
+            },
+            {
+                "Sn": 8,
+                "Account_Name": "Dharan",
+                "Bank_Name": "Dharan Sub-Metropolitan City-07, Sukrapath, Sunsari",
+                "Branch": "025-531606",
+                "fax":  "025-531606",
+                "AccountNumber": "dharan@unitedajodinsurance.com"
+            },
+            {
+                "Sn": 9,
+                "Account_Name": "Fikkal",
+                "Bank_Name": "Suryodaya Municipality-10, Fikkal, Ilam",
+                "Branch": "027-590507",
+                "fax": "027-590507",
+                "AccountNumber": "fikkal@unitedajodinsurance.com"
+            },
+            {
+                "Sn": 10,
+                "Account_Name": "Ilam",
+                "Bank_Name": " Ilam Municipality-07, Hospital line, City Mart (2nd Floor), Ilam",
+                "Branch": " 027-524502",
+                "fax": " 027-524502",
+                "AccountNumber": "Ilam@unitedajodinsurance.com"
+            },
+            {
+                "Sn": 11,
+                "Account_Name": "Itahari",
+                "Bank_Name": "Itahari Sub-metropolitan City-06, Purbaline, Sunsari",
+                "Branch": "025-589115",
+                "fax": "025-589115",
+                "AccountNumber": " itahari@unitedajodinsurance.com"
+            },
+            {
+                "Sn": 12,
+                "Account_Name": "Kakarbhitta",
+                "Bank_Name": "Mechinagar Municipality-06, Kakarbhitta, Jhapa",
+                "Branch": "023-567368",
+                "fax": "023-567368",
+                "AccountNumber": "kakarbhitta@unitedajodinsurance.com"
+            },
+            {
+                "Sn": 13,
+                "Account_Name": "Khandbari",
+                "Bank_Name": "Khandbari Municipality-01, Sankhuwasabha",
+                "Branch": "029-563142",
+                "fax": "029-563142",
+                "AccountNumber": "khandbari@unitedajodinsurance.com"
+            },
+            {
+                "Sn": 14,
+                "Account_Name": "Pathari",
+                "Bank_Name": "Pathari-Sanischare Municipality-01, Pathari, Morang",
+                "Branch": "021-555334",
+                "fax": "021-555334",
+                "AccountNumber": " pathari@unitedajodinsurance.com"
+            },
+            {
+                "Sn": 15,
+                "Account_Name": "Phidim",
+                "Bank_Name": "Ghorahi, Dang\t",
+                "Branch": "024-522153",
+                "fax": "024-522153",
+                "AccountNumber": "phidim@unitedajodinsurance.com"
+            },
+            {
+                "Sn": 16,
+                "Account_Name": "Phungling",
+                "Bank_Name": "Phungling Municipality-05, Birendra Chowk, Taplejung",
+                "Branch": "024-593007",
+                "fax": "024-593007",
+                "AccountNumber": "phungling@unitedajodinsurance.com"
+            },
+            {
+                "Sn": 17,
+                "Account_Name": "Rangeli",
+                "Bank_Name": "Rangeli Municipality-07, Rangeli Chowk, Morang",
+                "Branch": "021-580032",
+                "fax": "021-580032",
+                "AccountNumber": "rangeli@unitedajodinsurance.com"
+            }
+          
+        ]
+    }
+}
+

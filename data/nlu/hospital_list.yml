@@ -1,0 +1,19 @@
+version: "3.1"
+
+nlu:
+- intent: hospital_list
+  examples: |
+    - hospital
+    - hospitals
+    - list of hospitals
+    - hospital with cashless facilities
+    - which hospitals can I get treatment
+    - hospitals list
+    - which are the hospital I can go for cashless treatment
+    - partner hospitals
+    - what are your partner hospitals?
+    - which hospitals provide treatment without taking money?
+    - which hospitals are there for cashless treatment?
+    - what are your partner hospitals?
+    - provide me the list of your partner hospitals
+    

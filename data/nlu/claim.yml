@@ -1,0 +1,54 @@
+version: "3.1"
+
+nlu:
+  - intent: file_a_claim
+    examples: |
+      - Where can I make a claim?
+      - Tell me where to file a claim.
+      - I need to make a claim. Where should I contact?
+      - How can I register the claim [online](method)?
+      - How to make an insurance claim?
+      - Where should I submit the claim?
+      - Where can i register property insurance claim?
+      - I want to file a claim.
+      - i want to make an [online](method) claim
+      - What is the method to file the medical insurance claim?
+      - how can i file the personal accident claim?
+      - How can I register the vehicle insurance claim?
+      - Tell me the process to file a claim for bike accident.
+      - I want to claim.
+      - I want to report a claim [online](method)
+      - where can i to file a claim for health insurance?
+      - where can i register the property insurance claim?
+      - help me to register my claim [online](method) 
+      - what is the way to file a claim after damage to my property?
+
+  - intent: claim_status
+    examples: |
+
+      - I want to know the status of my claim.
+      - Please tell me about my claim status.
+      - I had registered my claim few days ago, what is it's status?
+      - I want to understand about claim.
+      - How can I check my claim status?
+      - I had made a claim for my bike insurance, can you tell me the status?
+      - i had filed a claim two months ago, can I check where is the status now?
+      - may i know the claim status?
+      - i want to track claim status [online](method).
+      - how can i track my claim [online](method)?
+      - i want to check my claim.
+      - what is my claim status?
+      - can i check status of my claim [online](method)?
+      - please tell me how to know my claim status.
+      - i want to track my claim status [online](method).
+
+  - intent: about_claim
+    examples: |
+      - claim
+      - I want to know about claim
+      - Give info about claim
+      - Detailed information about claim
+      - Claim provisions
+      - about claim
+      - claim related services
+      - information related to claim

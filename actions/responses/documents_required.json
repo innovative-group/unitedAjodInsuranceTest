@@ -1,0 +1,454 @@
+{
+    "purchase_insurance": {
+        "title": "Documents required for purchasing insurances are given below. Please click the type of insurance:",
+        "type": "ListItem",
+        "subtitle": "Required Documents for:",
+        "multi": true,
+        "data": [
+            {
+                "subtitle": "● Motor Insurance",
+                "subdata": {
+                    "detail": "Proposal Form, Vehicle Registration Book (Blue Book), Route Permit if required, Renewal notice issued from previous insurance company (if any)."
+                }
+            },
+            {
+                "subtitle": "● Fire Insurance",
+                "subdata": {
+                    "detail": "Proposal Form, Physical Inspection Report, Construction Completion Certificate, Char killa(if required) & other required documents if any."
+                }
+            },
+            {
+                "subtitle": "● PA/GPA",
+                "subdata": {
+                    "detail": "Proposal form, Complete list of persons to be covered along with sum insured for each member, Document reflecting age of the insured."
+                }
+            },
+            {
+                "subtitle": "● Health Insurance",
+                "subdata": {
+                    "detail": "Proposal Form and Doctors Report if required,"
+                }
+            },
+            {
+                "subtitle": "● Cattle and Crops",
+                "subdata": {
+                    "detail": "Proposal form, Technical Report showing area, cost and types of cattle and crops to be insured etc."
+                }
+            },
+            {
+                "subtitle": "● Marine Insurance",
+                "subdata": {
+                    "detail": "Proposal Form, Letter of Credit (L/C), Commercial Invoice, Pro-forma Invoice etc."
+                }
+            },
+            {
+                "subtitle": "● Contractor’s All Risk",
+                "subdata": {
+                    "detail": "Proposal Form, Contract Document, Bill of Quantity (BOQ)"
+                }
+            },
+            {
+                "subtitle": "● Travel Medical Insurance",
+                "subdata": {
+                    "detail": "Proposal Form and a Copy of Passport, citizenship certificate."
+                }
+            },
+            {
+                "subtitle": "● Other Insurances",
+                "subdata": {
+                    "detail": "As required by the company"
+                }
+            }
+        ]
+    },
+    "engineering_claim": {
+        "title": "List of documents for Engineering Claim Lodged ",
+        "type": "ListItem",
+        "subtitle": "Engineering Claim Lodged Documents",
+        "multi": true,
+        "data": [
+            {
+                "subtitle": "● Original Police Report"
+            },
+            {
+                "subtitle": "● V.D.C/Municipality Muchulka"
+            },
+            {
+                "subtitle": "● Hydrology and meteorology report"
+            },
+            {
+                "subtitle": "● Original Quotation"
+            },
+            {
+                "subtitle": "● Original Claim Bills"
+            },
+            {
+                "subtitle": "● Copy of PAN No. (If Company)"
+            },
+            {
+                "subtitle": "● Copy of BOQ"
+            },
+            {
+                "subtitle": "● Copy of Blue Book (FOR CPM POLICY)"
+            },
+            {
+                "subtitle": "● Copy of Driving License"
+            },
+            {
+                "subtitle": "● Photographs"
+            },
+            {
+                "subtitle": "● Surveyor Report"
+            },
+            {
+                "subtitle": "● Internal payment certificate / Running bills"
+            },
+            {
+                "subtitle": "● Others, if any"
+            }
+        ]
+    },
+    "third_party_claim": {
+        "title": "List of documents for Third Party Property Damaged claim",
+        "type": "ListItem",
+        "subtitle": "Third Party Property Damaged Claim Documents",
+        "multi": true,
+        "data": [
+            {
+                "subtitle": "● Original Police Report"
+            },
+            {
+                "subtitle": "● Copy of blue book (both vehicle)"
+            },
+            {
+                "subtitle": "● Copy of vehicle fitness (both vehicle)"
+            },
+            {
+                "subtitle": "● Copy of driving license (both vehicle)"
+            },
+            {
+                "subtitle": "● Copy of passenger/load chalan (If Commercial vehicle)"
+            },
+            {
+                "subtitle": "● Statement of driver"
+            },
+            {
+                "subtitle": "● Original claim bills"
+            },
+            {
+                "subtitle": "● Original quotation"
+            },
+            {
+                "subtitle": "● Copy of joint agreement"
+            },
+            {
+                "subtitle": "● Photographs"
+            },
+            {
+                "subtitle": "● Surveyor Report"
+            },
+            {
+                "subtitle": "● Others, if any"
+            }
+        ]
+    },
+    "passenger_death_claim": {
+        "title": "List of documents for Passenger/Driver/Helper/TP Person Death or Treatment claim",
+        "type": "ListItem",
+        "subtitle": "Passenger/Driver/Helper/TP Person Death or Treatment Claim Documents",
+        "multi": true,
+        "data": [
+            {
+                "subtitle": "● Original Police Report"
+            },
+            {
+                "subtitle": "● Copy of Blue Book"
+            },
+            {
+                "subtitle": "● Copy of Vehicle Fitness"
+            },
+            {
+                "subtitle": "● Copy of Driving License"
+            },
+            {
+                "subtitle": "● Copy of Passenger/Load Chalan (If Commercial Vehicle)"
+            },
+            {
+                "subtitle": "● Statement of driver"
+            },
+            {
+                "subtitle": "● Copy of Joint Agreement"
+            },
+            {
+                "subtitle": "● Photographs"
+            },
+            {
+                "subtitle": "● Original Medical Bills"
+            },
+            {
+                "subtitle": "● Copy of Hospital Documents"
+            },
+            {
+                "subtitle": "● Copy of Death Certificate (If Death Case)"
+            },
+            {
+                "subtitle": "● Copy of Ghatanasthal Muchulka"
+            },
+            {
+                "subtitle": "● Copy of Autopsy/Postmortem Report (If Death Case)"
+            },
+            {
+                "subtitle": "● Copy of Relationship Certificate"
+            },
+            {
+                "subtitle": "● Laas Satgat Purji Copy"
+            },
+            {
+                "subtitle": "● Others, if any"
+            }
+        ]
+    },
+    "micro_insurance_claim": {
+        "title": "List of documents for Micro Insurance Claim Lodged ",
+        "type": "ListItem",
+        "subtitle": "Micro Insurance claim Documents",
+        "multi": true,
+        "data": [
+            {
+                "subtitle": "● Original Police Report"
+            },
+            {
+                "subtitle": "● Report of related technical person"
+            },
+            {
+                "subtitle": "● Update of losses"
+            },
+            {
+                "subtitle": "● V.D.C/Municipality Muchulka"
+            },
+            {
+                "subtitle": "● Photographs"
+            },
+            {
+                "subtitle": "● Jilla Pasu Sewa Karyalayako Sipharis"
+            },
+            {
+                "subtitle": "● Others, If any"
+            }
+        ]
+    },
+    "fire_claim": {
+        "title": "List of documents for Fire Claim Lodged",
+        "type": "ListItem",
+        "subtitle": "Fire Claim Lodged Documents",
+        "multi": true,
+        "data": [
+            {
+                "subtitle": "● Original Police Report"
+            },
+            {
+                "subtitle": "● Fire Bridge Report"
+            },
+            {
+                "subtitle": "● V.D.C / Municipality Muchulka"
+            },
+            {
+                "subtitle": "● Copy of house design approval certificate"
+            },
+            {
+                "subtitle": "● Security Report"
+            },
+            {
+                "subtitle": "● Original Quotation"
+            },
+            {
+                "subtitle": "● Copy of PAN No. (If Company)"
+            },
+            {
+                "subtitle": "● Copy of Map"
+            },
+            {
+                "subtitle": "● Copy of Lal Purja"
+            },
+            {
+                "subtitle": "● Photographs"
+            },
+            {
+                "subtitle": "● Surveyor Report"
+            },
+            {
+                "subtitle": "● Others, if any"
+            }
+        ]
+    },
+    "marine_claim": {
+        "title": "List of documents for Marine Claim",
+        "type": "ListItem",
+        "subtitle": "Marine Claim Documents",
+        "multi": true,
+        "data": [
+            {
+                "subtitle": "● Bill of lading"
+            },
+            {
+                "subtitle": "● Copy of Customs"
+            },
+            {
+                "subtitle": "● Original Claim Bills"
+            },
+            {
+                "subtitle": "● Original Invoice"
+            },
+            {
+                "subtitle": "● Monetary claim made against carrier and their reply"
+            },
+            {
+                "subtitle": "● Original Police Report"
+            },
+            {
+                "subtitle": "● Carrier Certificate Copy"
+            },
+            {
+                "subtitle": "● Packing List"
+            },
+            {
+                "subtitle": "● L/C Copy"
+            },
+            {
+                "subtitle": "● Consignment Note (Buyer Order Slip)"
+            },
+            {
+                "subtitle": "● Photographs of damaged items"
+            },
+            {
+                "subtitle": "● Copy of PAN No."
+            },
+            {
+                "subtitle": "● Others, if any"
+            }
+        ]
+    },
+    "theft_vehicle_claim": {
+        "title": "List of documents for Theft Vehicle Claim Lodged",
+        "type": "ListItem",
+        "subtitle": "Theft Vehicle Claim Lodged Documents",
+        "multi": true,
+        "data": [
+            {
+                "subtitle": "● Original Blue Book"
+            },
+            {
+                "subtitle": "● Copy of Driving License"
+            },
+            {
+                "subtitle": "● Original Quotation"
+            },
+            {
+                "subtitle": "● Original Police Report"
+            },
+            {
+                "subtitle": "● Original Policy Copy"
+            },
+            {
+                "subtitle": "● Original Premium Receipt"
+            },
+            {
+                "subtitle": "● Letter of subrogation"
+            },
+            {
+                "subtitle": "● Vehicle Key (2 set)"
+            },
+            {
+                "subtitle": "● Notice of theft in national newspapers"
+            },
+            {
+                "subtitle": "● Rokka Letter of Yatayat"
+            },
+            {
+                "subtitle": "● Photographs of area of theft"
+            },
+            {
+                "subtitle": "● Others, if any"
+            }
+        ]
+    },
+    "pa/gpa/md_claim": {
+        "title": "List of documents for PA / GPA / MD Claim Lodged ",
+        "type": "ListItem",
+        "subtitle": "PA / GPA / MD Claim Lodged Documents",
+        "multi": true,
+        "data": [
+            {
+                "subtitle": "● Claim Bills"
+            },
+            {
+                "subtitle": "● Copy of All Hospital Documents"
+            },
+            {
+                "subtitle": "● Copy of Death Certificate (If Death Case)"
+            },
+            {
+                "subtitle": "● Copy of Ghatanasthal Muchulka"
+            },
+            {
+                "subtitle": "● Copy of Autopsy/Postmortem Report (If Death Case)"
+            },
+            {
+                "subtitle": "● Copy of Relationship Certificate (legal heir certificate)"
+            },
+            {
+                "subtitle": "● Copy of Laas Satgat Purji"
+            },
+            {
+                "subtitle": "● Copy of Citizenship Certificate"
+            },
+            {
+                "subtitle": "● Others, If any"
+            }
+        ]
+    },
+    "motor_claim": {
+        "title": "List of documents for Motor Policy claim",
+        "type": "ListItem",
+        "subtitle": "Motor Policy Claim Documents",
+        "multi": true,
+        "data": [
+            {
+                "subtitle": "● Original Police Report"
+            },
+            {
+                "subtitle": "● Copy of Blue Book"
+            },
+            {
+                "subtitle": "● Copy of Vehicle Fitness"
+            },
+            {
+                "subtitle": "● Copy of Route Permit"
+            },
+            {
+                "subtitle": "● Copy of Driving License"
+            },
+            {
+                "subtitle": "● Copy of Passenger / Load Chalan"
+            },
+            {
+                "subtitle": "● Driver statement"
+            },
+            {
+                "subtitle": "● Original Quotation"
+            },
+            {
+                "subtitle": "● Original bill of repair and replacement of parts"
+            },
+            {
+                "subtitle": "● Photographs of damaged vehicle"
+            },
+            {
+                "subtitle": "● Surveyor Report"
+            },
+            {
+                "subtitle": "● Others, if any"
+            }
+        ]
+    }
+}

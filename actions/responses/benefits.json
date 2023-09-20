@@ -1,0 +1,35 @@
+[
+    {
+        "benefits": {
+            "type": "ListItem",
+            "title": "Following are the benefits Non Life Insurance",
+            "subtitle": "Benefits of Non Life Insurance",
+            "multi": true,
+            "data": [
+                {
+                    "subtitle": "1. Financial security at the time of need is one of the major upsides of buying a non-life insurance policy."
+                },
+                {
+                    "subtitle": "2. The insurance company will bear the cost of a financial liability. Thus, such risks are carried over to the insurance company from the policyholder."
+                },
+                {
+                    "subtitle": "3. Peace of mind related to possible financial crises."
+                }
+            ],
+            "button": [
+                {
+                    "title": "Health Insurance",
+                    "payload": "/benefits{{\"product_type\":\"health\"}}"
+                },
+                {
+                    "title": "Motor Insurance",
+                    "payload": "/benefits{{\"product_type\":\"motor\"}}"
+                },
+                {
+                    "title": "Property Insurance",
+                    "payload": "/benefits{{\"product_type\":\"property\"}}"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,144 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps: 
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+
+- rule: activate form loop
+  steps: 
+  - intent: user_info
+  - action: simple_form
+  - active_loop: simple_form
+
+
+- rule: submit form
+  condition:
+  - active_loop: simple_form
+  steps:
+  - action: simple_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: action_say_data
+
+
+
+- rule: say about contact
+  steps:
+    - intent: contact
+    - action: action_contact
+    #- action: action_reset_slots
+
+
+- rule: say about benefit
+  steps:
+    - intent: benefits
+    - action: action_benefits
+    - action: action_reset_slots
+
+
+
+- rule: say about menu
+  steps:
+    - intent: menu
+    - action: action_menu
+    - action: action_reset_slots    
+
+
+- rule: say about become agent
+  steps:
+    - intent: become_agent
+    - action: action_become_agent
+    - action: action_reset_slots
+
+
+- rule: say about company profile
+  steps:
+    - intent: company_profile
+    - action: action_company_profile
+    - action: action_reset_slots
+
+
+- rule: say about careers
+  steps:
+    - intent: careers
+    - action: action_careers
+    - action: action_reset_slots  
+
+
+- rule: say about products
+  steps:
+    - intent: product_info
+    - action: action_product_info
+    - action: action_reset_slots    
+
+
+- rule: say about view details
+  steps:
+    - intent: view_details
+    - action: action_view_details
+    - action: action_reset_slots 
+
+
+- rule: say about procedure
+  steps:
+    - intent: procedure
+    - action: action_procedure
+    - action: action_reset_slots
+
+- rule: Activate a feedback complaint form
+  steps:
+    - intent: feedback
+    - action: action_feedback
+    - action: action_reset_slots 
+
+
+- rule: say about payment
+  steps:
+    - intent: payment
+    - action: action_payment
+    - action: action_reset_slots   
+
+
+- rule: say about purchase
+  steps:
+    - intent: purchase
+    - action: action_purchase
+    - action: action_reset_slots    
+
+- rule: say about cancel subscription
+  steps:
+    - intent: cancel_subscription
+    - action: action_cancel_subscription
+    - action: action_reset_slots    
+
+
+- rule: say about office time
+  steps:
+    - intent: office_time
+    - action: action_office_time
+    - action: action_reset_slots
+
+
+- rule: say about hospital list
+  steps:
+    - intent: hospital_list
+    - action: action_hospital_list
+    - action: action_reset_slots    
+
+- rule: say about documents required
+  steps:
+    - intent: documents_required
+    - action: action_documents_required
+    - action: action_reset_slots    
+
+- rule: say about downloads
+  steps:
+    - intent: downloads
+    - action: action_downloads
+    - action: action_reset_slots        

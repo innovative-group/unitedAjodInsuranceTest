@@ -1,0 +1,114 @@
+version: "3.1"
+
+nlu:
+  - intent: product_info
+    examples: |
+      - products
+      - Different product
+      - various policies available
+      - what are the options available
+      - how many insurance options do you provide
+      - could u please help me to get an insurance for me in your company
+      - which insurance policy do you provide
+      - what type of policies does your company sell?
+      - can i know the services you offer?
+      - what different products service does unitedAjod insurance provide?
+
+      - [property](product_type) insurance
+      - bruglary [house]{"entity":"product_type", "value":"property"} breaking insurance
+      - how can i do insurance of my [house]{"entity":"product_type", "value":"property"}
+      - i want to know about [home]{"entity":"product_type", "value":"property"} insurance
+      - i am planning to do insurance of my [property](product_type), please suggest me
+      - insurance of [house]{"entity":"product_type", "value":"property"}
+
+      - [motor](product_type) insurance
+      - i have to do insurance of my [car]{"entity":"product_type", "value":"motor"}
+      - i need to do insurance of my [scooty]{"entity":"product_type", "value":"motor"}
+      - how can i do [motor bike]{"entity":"product_type", "value":"motor"} insurance
+      - insurance of my [bike]{"entity":"product_type", "value":"motor"}
+      - can i do the insurance of [truck]{"entity":"product_type", "value":"motor"}
+      - is there any insurance for [motor cycle]{"entity":"product_type", "value":"motor"}?
+
+      - [marine](product_type) insurance
+      - insurance of [ships]{"entity":"product_type", "value":"marine"}
+      - [cargo]{"entity":"product_type", "value":"marine"} insurance
+      - is it possible to do insurance of transport by [cargo]{"entity":"product_type", "value":"marine"}?
+      - i want to know about [marine](product_type) insurance policies
+      
+      - civil [engineering](product_type) insurance
+      - insurance of [bridge]{"entity":"product_type", "value":"engineering"}
+      - is it possible to do insurance of civil [engineering](product_type) works?
+      - i have a factory, i need to do insurance of [machines]{"entity":"product_type", "value":"engineering"}
+      - [machinery]{"entity":"product_type", "value":"engineering"} breakdown insurance
+      - i want to know about insurance of [machinery]{"entity":"product_type", "value":"engineering"} equipments
+      - I want to do the insurance of my [electronic]{"entity":"product_type", "value":"engineering"} products
+      - do you provide insurance for [electronic]{"entity":"product_type", "value":"engineering"} equipments?
+      - insurance of [tv]{"entity":"product_type", "value":"engineering"}
+      - can i do insurance of my [laptop]{"entity":"product_type", "value":"engineering"}?
+      - i need to do insurance of all [electronic]{"entity":"product_type", "value":"engineering"} goods of my office
+      - insurance for [construction]{"entity":"product_type", "value":"engineering"} activities
+
+      - I want to know about [travel]{"entity":"product_type", "value":"travelMedical"} insurance provided by unitedAjod premier insurance
+      - how can we do family [travel]{"entity":"product_type", "value":"travelMedical"} insurance?
+      - we are planning to take family [travel medical]{"entity":"product_type", "value":"travelMedical"} insurance for our upcoming trip.
+      - [travel]{"entity":"product_type", "value":"travelMedical"} insurance for international travelers
+      - can you tell me about medi [travel]{"entity":"product_type", "value":"travelMedical"} insurance?
+      - are there any plans for student [travel]{"entity":"product_type", "value":"travelMedical"} insurance?
+      - do you provide [medical](product_type) insurance for trip?
+      - i want to know about international travellers [travel]{"entity":"product_type", "value":"travelMedical"} insurance.
+      - insurance for [travel]{"entity":"product_type", "value":"travelMedical"} expenses
+      - [travel]{"entity":"product_type", "value":"travelMedical"} insurance for medical expenses while traveling
+      - I am about to [travel]{"entity":"product_type", "value":"travelMedical"} can I do insurance of my travel.
+      - can I do insurance of my trip.        
+      
+      
+
+      - personal [accident]{"entity":"product_type", "value":"miscellaneous"} insurance
+      - do you provide insurance for [accident]{"entity":"product_type", "value":"miscellaneous"} during trekking or mountaineering?
+      - insurance of [cash]{"entity":"product_type", "value":"miscellaneous"} lost due to theft or robbery
+      - we have to do insurance of [cash]{"entity":"product_type", "value":"miscellaneous"} for our bank
+      - do you have insurance options for loss of [money]{"entity":"product_type", "value":"miscellaneous"} ?
+      - insurance for [cash]{"entity":"product_type", "value":"miscellaneous"} in transit
+      - insurance of [banks]{"entity":"product_type", "value":"miscellaneous"} 
+      - [bankers]{"entity":"product_type", "value":"miscellaneous"} indemnity insurance
+      - i have to do insurance of my [house]{"entity":"product_type", "value":"miscellaneous"} against theft and robbery
+      - are there any plans for [home]{"entity":"product_type", "value":"miscellaneous"} insurance?
+      - burglary and [house]{"entity":"product_type", "value":"miscellaneous"} breaking insurance
+      - [fidelity guarentee]{"entity":"product_type", "value":"miscellaneous"} insurance
+      - do you provide the [fidelity guarentee]{"entity":"product_type", "value":"miscellaneous"} insurance for employers?
+      - which plans are there under [miscellaneous](product_type) insurance?
+    
+      - [agriculture](product_type) insurance
+      - do you provide insurance for [agriculture](product_type), livestock and herbs?
+      - can i do insurance of my [crops]{"entity":"product_type", "value":"agriculture"}?
+      - I am planning to do insurance of my [cattles]{"entity":"product_type", "value":"agriculture"}
+      - insurance of [buffalo]{"entity":"product_type", "value":"agriculture"}
+      - insurance of [herbs]{"entity":"product_type", "value":"agriculture"}
+      - do you provide insurance plans for [agricultural]{"entity":"product_type", "value":"agriculture"} activities?
+      - do you provide insurance for [livestock]{"entity":"product_type", "value":"agriculture"} ?
+
+      - give product details
+      - details of all your products
+      - about products
+      - tell me about your products
+      - product
+      - what are your products?
+      - All products
+      - Products/Services
+      - what are the available policies?
+      - I want to know different plans
+      - I want to see policy list
+      - Policies
+      - Plan
+      - unitedAjod premier insurance policies
+      - what are the insurance products that you offer
+      - service
+      - services
+      - type of insurance products
+      - i want to know about the product you provide
+      - how many types of insurance products are available?
+      - insurance products available in market
+      - how many types of insurance products are available in your company?
+      - what are the insurance options offered by your organization?
+     
+

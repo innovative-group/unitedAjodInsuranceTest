@@ -1,0 +1,63 @@
+version: "3.1"
+
+nlu:
+  - intent: payment
+    examples: |
+      - payment
+      - how can i pay
+      - i want to pay my premium
+      - i want to make payments
+      - payment mediums
+      - can you help me with the payment options
+      - what methods can be used to make the payments of my premium.
+      - What is the process for payment if I live abroad?
+      - I am out of the country. Can I pay for my property insurance online?
+
+      - How can make a premium payment of my scooter insurance?
+      - What are the different payment methods available?
+      - How to pay for my student medical insurance policy?
+      - I need to make payment for my agriculture insurance. Guide me through it.
+      - how to pay the premiums online?
+      - i want to pay for my machine insurance, how can i do it?
+      - account number for payment
+      - premium payment
+      - What are the payment options provided by your company?
+      - What are your different payment options?
+
+      - Can I make payments through online [wallets]{"entity":"payment_option", "value":"wallet"}?
+      - please tell me from which [e-wallets]{"entity":"payment_option", "value":"wallet"} can I pay?
+      - How to pay through [esewa](wallet_name)?
+      - Can I pay via [khalti](wallet_name)?
+      - Tell me the way to make payment via [connectips](wallet_name).
+      - how to pay my premium using [connect ips]{"entity":"wallet_name", "value":"connectips"}?
+      - can i renew policy online via [esewa](wallet_name)?
+      - [connect ips]{"entity":"wallet_name", "value":"connectips"} details
+      - pay from [connect ips]{"entity":"wallet_name", "value":"connectips"}
+      - [khalti](wallet_name) details
+      - [connectips](wallet_name)
+      - how can i make payment from [esewa](wallet_name)?
+      - can i pay my premium amount from [ime pay](wallet_name)?
+      - pay from [ime-pay]{"entity":"wallet_name", "value":"ime pay"}
+      - i want to pay money for my bike insurance through [imepay]{"entity":"wallet_name", "value":"ime pay"}
+      - [ime pay](wallet_name)
+      - [prabhu pay](wallet_name)
+      - how to make the payment of my family health insurance from [prabhu pay](wallet_name)?
+      - provide the payment details of [prabhupay]{"entity":"wallet_name", "value":"prabhu pay"}
+
+  - lookup: wallet_name
+    examples: |
+      - esewa
+      - khalti
+      - connectips
+      - ime pay
+      - prabhu pay
+
+  - synonym: esewa
+    examples: |
+      - e-sewa
+      - e sewa
+
+  - synonym: connectips
+    examples: |
+      - connect-ips
+      - connect ips

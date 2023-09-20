@@ -1,0 +1,93 @@
+{
+    "interestForm": {
+        "type": "form",
+        "subtype": "Purchase Insurance",
+        "formCategory": {
+          "type": "purchase",
+          "action": "Email_Only"
+        },
+        "action": "/rest/v1/problem",
+        "Mailcatagories": "Underwriting",
+        "emailsubject": " Purchase policy",
+        "lastContactText": "or you can contact our representative Mr. Rama Bohara by calling 9851110241, Also can send mail at rama.bohara@ajodinsurance.com",
+        "title": "Policy Purchase Request",
+        "data": [
+          {
+            "label": "Full name",
+            "placeholder": "Enter full name",
+            "id": "fullName",
+            "type": "text",
+            "validation": {
+              "required": true
+            }
+          },
+          {
+            "label": "Email Address",
+            "placeholder": "Enter email address",
+            "id": "emailAddress",
+            "type": "email",
+            "validation": {
+              "required": true,
+              "email": true
+            }
+          },
+          {
+            "label": "Mobile Number",
+            "placeholder": "Enter mobile number",
+            "id": "mobileNumber",
+            "type": "number",
+            "validation": {
+              "required": true,
+              "mobile": true
+            }
+          },
+          {
+            "type": "dropdown",
+            "placeholder": "Choose insurance type",
+            "label": "Insurance type",
+            "id": "droper",
+            "validation": {
+              "required": true
+            },
+            "data": [
+              {
+                "for": "Property Insurance"
+              },
+              {
+                "for": "Motor Vehicle Insurance"
+              },
+              {
+                "for": "Marine / Transit Cargo Insurance"
+              },
+              {
+                "for": "Miscellaneous Insurance"
+              },
+              {
+                "for": "Engineering Insurance"
+              },
+              {
+                "for": "Aviation Insurance"
+              },
+              {
+                "for": "Agriculture Insurance (Cattle & Crops)"
+              },
+              {
+                "for": "Micro Insurance"
+              }
+            ]
+          }
+        ],
+        "buttons": {
+          "data": [
+            {
+              "text": "Cancel",
+              "type": "cancel"
+            },
+            {
+              "text": "Submit",
+              "type": "submit"
+            }
+          ]
+        }
+      }
+}

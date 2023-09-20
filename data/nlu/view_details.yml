@@ -1,0 +1,33 @@
+version: "3.1"
+
+nlu:
+  - intent: view_details
+    examples: |
+      - i want to see my [policy details](details)
+      - can i view my [personal details](details)
+      - Check my detail
+      - how can i check my [policy details](details)
+      - i have to view my [personal detail]{"entity":"details", "value":"personal details"}
+      - where can i check my [personal detail]{"entity":"details", "value":"personal details"}
+      - [personal detail](details)
+      - How can i check my details
+      - insurance validity details
+      - what is my policy expiry date?
+      - validity date of my insurance
+      - when is my policy renewal date?
+      - when should i renew my insurance?
+      - how to check if my policy is expired?
+      - how can I check the status of my insurance?
+      - i want to know about my policy
+
+      - How can I view my details?
+      - Tell me how to check my details.
+      - I want to view details.
+      - View my details
+      - See my details
+      - I want to view commission of my issued policy
+      - details of my policy
+      - how can i know about my policy?
+      - [policy detail form](form_type)
+      - i want to see the [personal detail form](form_type)
+      - please provide me the [policy detail form](form_type)

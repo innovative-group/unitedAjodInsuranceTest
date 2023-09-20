@@ -1,0 +1,34 @@
+version: "3.1"
+
+nlu:
+  - intent: cancel_subscription
+    examples: |
+      - Can I cancel my policy?
+      - How can I terminate my policy?
+      - Can you please help to close my home insurance?
+      - I want to close my heath insurance.
+      - Rules for discontinuing a plan
+      - What are the cancellation rules and procedures?
+      - What should I do to discontinue my health insurance plan?
+      - Please tell me the process to terminate my plan.
+      - What are the rules to close my policy?
+      - Can I cancel my medical insurance policy?
+      - How do I cancel my subscription?
+      - What is the process for cancelling my house insurance?
+      - What are the steps to terminate my car insurance coverage?
+      - Terminate my policy
+      - How to withdraw my policy?
+      - Cancel plan
+      - I want to drop my policy.
+      - What happens if I close my plan?
+      - Are there any penalties for cancelling my subscription early?
+      - What happens to my premium payments if I cancel my policy?
+      - Is there a fee for cancelling my subscription?
+      - Termination of issued policy
+      - Procedure to surrender my policy
+      - I cannot pay for my medical insurance policy. What is the process to surrender my policy?
+      - discontinue insurance
+      - How can I discontinue my plan?
+      - I cannot afford to pay my premium. Can I close it and get my money back?
+      - reimbursement after cancelling my policy
+      - Can I get a refund if I cancel my motorcycle insurance?

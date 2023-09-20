@@ -1,0 +1,30 @@
+version: "3.1"
+
+stories:
+  - story: faq from sheets
+    steps:
+      - intent: faq
+      - action: action_faq
+
+
+  - story: greet
+    steps: 
+      - intent: greet
+      - action: utter_greet
+
+
+
+  - story: goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: premium_calculation
+    steps:
+    - intent: premium_calculation
+    - action: action_premium_calculation
+
+  # - story: Thank you 
+  #   steps:
+  #     - intent: thankyou
+  #     - action: utter_thankyou      

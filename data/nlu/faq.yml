@@ -1,0 +1,147 @@
+version: "3.1"
+
+nlu:
+  - intent: faq
+    examples: |
+      - How much time is needed to complete claim process?
+      - What is the claim processing time?
+      - How much time does it take to process the claim?
+      - What is the timeframe for underwriting?
+      - How much time does it take for underwriting?
+      - How much time does it takes to claim for my car?
+      - How long will it take to get compensation after accident?
+      - How long does it take to issue a new insurance policy?
+      - insurance issuance time
+      - time taken to do my health insurance
+      - After how many days of accident will I get my claim amount?
+      - What is the time to settle a claim after submitting all the documents?
+      - How much is the claim settlement time?
+      - How much time does it take to settle a claim?
+      - How many days will it take to purchase insurance?
+      - time taken to do insurance
+      - time taken to process claim
+      - how many days will it take to purchase insurance?
+      - How much compensation will I get in case of accident?
+      - How much compensation will the insurance company give to me if I get into an accident?
+      - my uncle got an accident, how much claim amount will he recieve
+      - how much compensation amount will the insurance company pay?
+      - Please tell me the compensation amount paid by company to policy holders in case of accident
+      - What will be the rate or compensation amount?
+
+      - Do I have the right to appeal the company's decision about my claim?
+      - Can I make an appeal if I am not satisfied with the claim decision of the company?
+      - I do not like the claim decision given by insurance company to me. What can I do?
+      - What can I do if I am not satisfied with the claim decision of the insurance company?
+      - Can I do anything if I do not agree with the company's decision regarding my claim?
+
+      - What if at the time of accident my vehicle is being driven by someone else?
+      - someone else was driving my vehicle at the time of accident what will happen
+      - my brother was ridding my motorcycle at the time of accident will I be able to claim?
+      - Can i make a claim if someone else was driving my car at the time of accident.
+
+      - i was not driving my vehicle at the time of accident, can i still make a claim?
+      - what will happen if my bike gets damaged by the accident while someone else was riding it?    
+
+      - what happens if i make small claims.
+      - is it ok to make small claim?
+      - why i cant make small claim
+      - is it a good idea to make small claims
+      - do i need to make small claim or wait for NCD.
+
+      - please tell me about small claim
+      - any consequences of small claim?
+
+      - how much will it cost to report a claim?
+      - Do I need to pay money to make a claim?
+      - Is payment necessary to register my claim?
+      - I have to file a claim. Do I need to pay or not?
+      - Does surveyor ask for money?
+      - Who will pay to surveyor?
+      - Can I file a claim without paying money?
+      - Do I need to pay to surveyor?
+
+      - Who is an insurance surveyor?
+      - What do you mean by insurance surveyor?
+
+      - When does coverage become effective?
+      - when will my insurance coverage start?
+      - from when the insurance company starts bearing my risk
+
+      - after how long will the insurance coverage start to work?
+      
+      - what is insurance?
+      - insurance
+      - what is non life insurance policy?
+      - what is the definition of insurance?
+      - what is policy?
+      - i want to know about non life insurance.
+      - about non life insurance
+      - please tell me about insurance
+      
+      - what is ncb?
+      - NCB
+      - what is third party insurance?    
+
+      - insurance
+      - what is insurance?
+      - what is non life insurance policy?
+      - what do you mean by insurance?
+      - i want to know about non life insurance.
+      - what do you mean by insurance policy?
+      - about non life insurance
+      - please tell me about insurance
+      - what is ncb?
+      - please tell me about no claim bonus.
+      - what do you mean by ncb?
+      - please tell  me about ncb
+      - what is third party insurance?
+      - please tell me about third party insurance.
+      - meaning of deductible
+      - what do you mean by deductible?
+      - more info about comprehensive motor insurance
+      - I want to know more about comprehensive motor insurance
+      - What do you mean by Comprehensive motor insurance?
+      - What do you mean by reinsurance?
+      - What is reinsurance?
+      - Who is the re-insurer?
+      - Who are the reinsurers of your company?
+      - reinsurers of siddhartha premier insurance limited
+
+      - How many types of insurances are there?
+      - types of insurances
+      - what are the insurances available in market?
+      - what is premium?
+      - what do you mean by premium?
+
+      - about training 
+      - what about the seminar
+      - i want to know about training
+      - let me kn0w about your training and seminar
+      - when do you provide trainings?
+      - how can i know about trainings and seminars?
+      - what are the trainings and seminars provided by your company?
+
+      - What are the eligibility criteria for non life insurance?
+      - who is eligible to take policy
+      - is there any eligibility criteria
+      - am i eligible to take policy
+      - what is needed to do a non life insurance
+      - criteria for purchasing non life plans
+
+      - what are the criteria to be fulfilled to do the insurance?
+      - who is eligible to do non life insurance?
+
+      - how can i get the trainings?
+      - i want to be a part of seminar of your company
+      - i want to know about training
+      - when do you provide the trainings?
+      - what should i do to get the training from your organization?
+      - how can i attend the seminars and other events?
+
+      - How many types of insurances are there?
+      - types of insurances
+      - what are the insurances available in market?
+
+      - please tell me about the types of insurances
+      - i want to know about the types of insurances
+

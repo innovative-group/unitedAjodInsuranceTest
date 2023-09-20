@@ -1,0 +1,96 @@
+{
+    "policy_detail_form": {
+        "type": "formMessageSection",
+        "exitMSG": "Oops !! You gave up halfway through Policy Details. Please try again.",
+        "form": {
+            "elements": [
+                {
+                    "order": "text",
+                    "title": "Enter your Policy Number ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Policy Number",
+                    "validation": {
+                        "type": "PolicyNumber",
+                        "error": "Provide valid Policy number"
+                    },
+                    "label": "PolicyNo"
+                },
+                {
+                    "order": "number",
+                    "title": "Enter your Mobile Number ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Mobile Number",
+                    "validation": {
+                        "type": "mobile",
+                        "error": "Invalid mobile number!! Please provide 10 digit Mobile Number"
+                    },
+                    "label": "MobileNo"
+                },
+                {
+                    "order": "cancle",
+                    "title": " Do you want to submit your information ?",
+                    "type": "submitbutton",
+                    "placeholder": "Enter your email",
+                    "button": [
+                        {
+                            "submit": "Submit",
+                            "type": "submit"
+                        },
+                        {
+                            "submit": "Cancel",
+                            "type": "cancel"
+                        }
+                    ]
+                }
+            ]
+        },
+        "post": "rest/v1/siddartha/GetPolicyDetails"
+    },
+    "personal_detail_form": {
+        "type": "formMessageSection",
+        "exitMSG": "Oops !! You gave up halfway through Personal Details. Please try again.",
+        "form": {
+            "elements": [
+                {
+                    "order": "text",
+                    "title": "Enter your KYC number ?",
+                    "type": "textbox",
+                    "placeholder": "Enter KYC number",
+                    "validation": {
+                        "type": "PolicyNumber",
+                        "error": "Provide valid KYC number"
+                    },
+                    "label": "KycNo"
+                },
+                {
+                    "order": "number",
+                    "title": "Enter your Mobile Number ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Mobile Number",
+                    "validation": {
+                        "type": "mobile",
+                        "error": "Invalid!! Please provide 10 digit Mobile Number"
+                    },
+                    "label": "MobileNo"
+                },
+                {
+                    "order": "cancle",
+                    "title": "Do you want to submit your information ?",
+                    "type": "submitbutton",
+                    "placeholder": "Enter your email",
+                    "button": [
+                        {
+                            "submit": "Submit",
+                            "type": "submit"
+                        },
+                        {
+                            "submit": "Cancel",
+                            "type": "cancel"
+                        }
+                    ]
+                }
+            ]
+        },
+        "post": "rest/v1/siddartha/GetPersonalDetails"
+    }
+}

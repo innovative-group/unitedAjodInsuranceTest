@@ -1,0 +1,247 @@
+{
+    "purchase_form": {
+        "type": "form",
+        "formType": "userInterest",
+        "subtype": "Purchase Insurance",
+        "action": "rest/v1/user/userInterest",
+        "Back": {
+            "title": "Back",
+            "payload": "/products{{\"process\":\"purchase\"}}"
+        },
+        "Mailcatagories": "Underwriting",
+        "emailsubject": " Purchase policy",
+        "lastContactText": "or you can contact our representative Mr. (....) by calling (.......), Also can send mail at (.....)",
+        "title": "Policy Purchase Request",
+        "data": [
+            {
+                "label": "Full name",
+                "placeholder": "Enter full name",
+                "id": "fullname",
+                "type": "text",
+                "validation": {
+                    "required": true
+                }
+            },
+            {
+                "label": "Mobile/Email",
+                "placeholder": "Enter mobile number/email",
+                "id": "mobile_email",
+                "type": "text",
+                "validation": {
+                    "required": true,
+                    "email": true
+                }
+            },
+            {
+                "type": "dropdown",
+                "placeholder": "Choose insurance type",
+                "label": "Category",
+                "id": "droper",
+                "validation": {
+                    "required": false
+                },
+                "data": [
+                    {
+                        "for": "Select Your Category",
+                        "id": "default"
+                    },
+                    {
+                        "for": "Property Insurance"
+                    },
+                    {
+                        "for": "Motor Vehicle Insurance"
+                    },
+                    {
+                        "for": "Marine Insurance"
+                    },
+                    {
+                        "for": "Miscellaneous Insurance"
+                    },
+                    {
+                        "for": "Engineering Insurance"
+                    },
+                    {
+                        "for": "Health Insurance"
+                    }
+                ]
+            },
+            {
+                "label": "Description",
+                "placeholder": "Enter some details",
+                "id": "description",
+                "type": "textarea",
+                "validation": {
+                    "required": false
+                }
+            }
+        ],
+        "buttons": {
+            "data": [
+                {
+                    "text": "Cancel",
+                    "type": "cancel"
+                },
+                {
+                    "text": "Submit",
+                    "type": "submit"
+                }
+            ]
+        }
+    },
+    "renew_insurance_with_policy_number": {
+        "type": "formMessageSection",
+        "exitMSG": "Oops !! you quitted midway in the process of renewal of insurance.",
+        "Mailcatagories": "renewPolicy",
+        "emailsubject": "wants to renew policy",
+        "emailTitle": "Request For Policy Renew",
+        "lastContactText": "or you can contact our representative Mr. (........) by calling (......), Also you can send mail at (........)",
+        "multipart": true,
+        "form": {
+            "elements": [
+                {
+                    "order": "text",
+                    "title": "Your Full Name Please ?",
+                    "type": "textbox",
+                    "placeholder": "Please Type Your Full Name",
+                    "utterances": [
+                        {
+                            "message": "Please provide your details to renew your policy"
+                        }
+                    ],
+                    "validation": {
+                        "type": "name",
+                        "error": "Doesn't Look like a valid name. Please specify valid name"
+                    },
+                    "label": "name"
+                },
+                {
+                    "order": "text",
+                    "title": "What is your Policy Number ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Your Policy Number",
+                    "validation": {
+                        "type": "PolicyNumber",
+                        "error": "Invalid Policy Number. Please provide a valid policy number."
+                    },
+                    "label": "PolicyNumber"
+                },
+                {
+                    "order": "number",
+                    "title": "Your mobile number please ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Your mobile Number",
+                    "validation": {
+                        "type": "mobile",
+                        "error": "Invalid!! Please provide 10 digit mobile number."
+                    },
+                    "label": "mobile"
+                },
+                {
+                    "order": "email",
+                    "title": "Provide us your Email",
+                    "type": "textbox",
+                    "placeholder": "Enter your Email",
+                    "validation": {
+                        "type": "email",
+                        "error": "Invalid email"
+                    },
+                    "label": "email"
+                },
+                {
+                    "order": "cancle",
+                    "title": " Please click Submit button to proceed further or Cancel to quit",
+                    "type": "submitbutton",
+                    "button": [
+                        {
+                            "submit": "Submit",
+                            "type": "submit"
+                        },
+                        {
+                            "submit": "Cancel",
+                            "type": "cancel"
+                        }
+                    ]
+                }
+            ]
+        },
+        "post": "rest/v1/renewPolicy/renew"
+    },
+    "renew_motor_insurance_with_vehicle_number": {
+        "type": "formMessageSection",
+        "exitMSG": "Oops !! you quitted midway in the process of renewal of insurance.",
+        "Mailcatagories": "renewPolicy",
+        "emailsubject": "wants to renew policy",
+        "emailTitle": "Request For Policy Renew",
+        "lastContactText": "or you can contact our representative Mr. (........) by calling (......), Also you can send mail at (........)",
+        "multipart": true,
+        "form": {
+            "elements": [
+                {
+                    "order": "text",
+                    "title": "Your Full Name Please ?",
+                    "type": "textbox",
+                    "placeholder": "Please Type Your Full Name",
+                    "utterances": [
+                        {
+                            "message": "Please provide your details to renew your policy."
+                        }
+                    ],
+                    "validation": {
+                        "type": "name",
+                        "error": "Doesn't Look like a valid name. Please specify valid name"
+                    },
+                    "label": "name"
+                },
+                {
+                    "order": "text",
+                    "title": "What is your Vehicle Number ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Your vehicle Number",
+                    "validation": {
+                        "type": "VehicleNumber",
+                        "error": "Vahicle Number is required."
+                    },
+                    "label": "VehicleNumber"
+                },
+                {
+                    "order": "number",
+                    "title": "Your mobile number please ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Your mobile Number",
+                    "validation": {
+                        "type": "mobile",
+                        "error": "Invalid!! Provide 10 digit number"
+                    },
+                    "label": "mobile"
+                },
+                {
+                    "order": "email",
+                    "title": "Provide us your Email",
+                    "type": "textbox",
+                    "placeholder": "Enter your Email",
+                    "validation": {
+                        "type": "email",
+                        "error": "Invalid email"
+                    },
+                    "label": "email"
+                },
+                {
+                    "order": "cancle",
+                    "title": " Please click Submit button to proceed further or Cancel to quit",
+                    "type": "submitbutton",
+                    "button": [
+                        {
+                            "submit": "Submit",
+                            "type": "submit"
+                        },
+                        {
+                            "submit": "Cancel",
+                            "type": "cancel"
+                        }
+                    ]
+                }
+            ]
+        },
+        "post": "rest/v1/renewPolicy/renew"
+    }
+}

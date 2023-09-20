@@ -1,0 +1,24 @@
+version: "3.1"
+
+nlu:
+- intent: downloads
+  examples: |
+    - Where can I get the [kyc](fom_type) forms?
+    - forms
+    - download forms
+    - How can I download forms?
+    - where can I get the agent form to become an agent?
+    - [kyc](form_type) form
+    - [proposal](form_type) form
+    - [claim](form_type) form
+    - tell me where can I get the [kyc](form_type) form
+    - please provide me the [proposal](form_type) form
+    - i need the [claim](form_type) form
+    - can i fill up the [kyc](form_type) form online?
+    - how can i fill up the [proposal](form_type) form?
+
+    - Where can I get the [claim](insurance_info) form?
+    - Please provide me the form to file a [claim](insurance_info).
+    - Can I fill up the online form to file a [claim](insurance_info)?
+
+

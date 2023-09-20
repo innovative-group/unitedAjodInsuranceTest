@@ -1,0 +1,266 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - inform
+  - inform_ask_partial_data_confirmation
+
+  - contact
+  - company_profile
+  - become_agent
+  - benefits
+  - product_info
+  - details
+  - view_details
+  - procedure
+  - feedback
+  - payment
+  - premium_calculation
+  - purchase
+  - renew
+  - cancel_subscription
+  - documents_required
+  - downloads
+  - faq
+  - office_time
+  - hospital_list
+  
+
+
+
+entities:
+  - number
+  - city
+  - name  
+
+
+
+  - office_type
+  - social_media
+  - user_type
+  - insurance_info
+  - document
+  - company_info
+  - method
+  - file_a_claim
+  - claim_status
+  - about_claim
+  - details
+  - payment_option
+  - wallet_name
+  - product_type
+  - calculation_type
+  - payment_method
+  - action_purchase
+  - feedback_type
+  - form_type
+  
+  
+  
+
+
+slots:
+  phone:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: number
+        conditions:
+          - active_loop: simple_form
+            requested_slot: phone
+
+  city:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: city
+
+  name:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: name
+
+
+  user_type:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: user_type
+
+
+  social_media:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: social_media
+
+
+  office_type:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: office_type  
+
+
+  method:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: method        
+
+
+
+
+  product_type:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: product_type
+
+
+  company_info:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: company_info   
+
+
+
+  feedback_type:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: feedback_type
+
+
+  insurance_info:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: insurance_info                 
+
+
+  payment_option:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: payment_option
+
+
+  wallet_name:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: wallet_name  
+
+  calculation_type:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: calculation_type      
+
+  payment_method:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: payment_method
+        
+
+  document:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: document 
+
+  form_type:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: form_type
+
+
+
+
+
+forms:
+  simple_form:
+    required_slots:
+      - name
+      - city
+      - phone
+
+responses:
+  utter_greet:
+    - text: "Hey! How are you?"
+
+  utter_ask_phone:
+    - text: "Can I get your phone number please?"
+
+  utter_ask_name:
+    - text: "Hey there, what is your good name?"
+
+
+  utter_ask_city:
+    - text: "In which city do you live in?"
+
+
+  
+
+  utter_goodbye:
+    - text: "Bye"
+
+
+  utter_thankyou:
+    - text: "Thank you for giving us the chance to serve you."
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+actions:
+  - action_say_data
+  - validate_simple_form
+  - action_contact
+  - action_benefits
+  - action_reset_slots
+  - action_menu
+  - action_become_agent
+  - action_company_profile
+  - action_careers
+  - action_product_info
+  - action_feedback
+  - action_procedure
+  - action_view_details
+  - action_payment
+  - action_premium_calculation
+  - action_purchase
+  - action_cancel_subscription
+  - action_faq
+  - action_office_time
+  - action_hospital_list
+  - action_documents_required
+  - action_downloads
+  - validate_feedback_complaints_form
+  - action_reset_feedback_complaints_slot
+  - action_feedback_submit
+  - action_callback

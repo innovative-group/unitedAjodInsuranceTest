@@ -1,0 +1,25 @@
+{
+    "become_agent": {
+        "title": "I am glad you like to work as an agent with us. Inorder to get the agent license from SIL following are the requirements.",
+        "type": "ListItem",
+        "subtitle": "Requirements for Agent License",
+        "multi": true,
+        "data": [
+            {
+                "subtitle": "● SLC Certificate that should be notorized."
+            },
+            {
+                "subtitle": "● Citizenship"
+            },
+            {
+                "subtitle": "● Two passport sized photos"
+            },
+            {
+                "subtitle": "● Should take training from our Branches"
+            },
+            {
+                "subtitle": "● Rs. 1000"
+            }
+        ]
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "hospital_list": {
+        "title": "Please find below the List of network hospitals within our panel for cash less facility. In Cashless service, the settlement of bills is done between the insurance company and the hospital, without the need for any cash payment by the policyholder. <br><br>You can also take health services from other than network hospitals, that case the policyholder pays the hospital first and then claims the amount from the insurance company.",
+        "type": "ListItem",
+        "subtitle": "Our Network Hospitals",
+        "multi": true,
+        "data": [
+            {
+                "subtitle": "● Norvic International Hospital, Thapathali"
+            },
+            {
+                "subtitle": "● Vayodha Hospital, Balkhu"
+            },
+            {
+                "subtitle": "● Alka Hospital, Jawlakhel"
+            },
+            {
+                "subtitle": "● B & B Hospital, Gwarkhu"
+            },
+            {
+                "subtitle": "● Janamaitri Hospital, Balaju"
+            },
+            {
+                "subtitle": "● Chirayu Hospital, Maharajguhj"
+            },
+            {
+                "subtitle": "● Green City Hospital, Dhapasi"
+            },
+            {
+                "subtitle": "● Madhyapur Hospital, Thimi"
+            },
+            {
+                "subtitle": "● Nobel Hospital, Sinamangal"
+            },
+            {
+                "subtitle": "● Neelam Hospital, Satungal"
+            },
+            {
+                "subtitle": "● Dhirgayu Guru Hospital, Mitrapark"
+            },
+            {
+                "subtitle": "● Chure Hill Hospital, Hetauda"
+            },
+            {
+                "subtitle": "● Alive Hospital & Trauma Centre, Chitwan"
+            },
+            {
+                "subtitle": "● Samyak Diagnostic Pvt. Ltd, Jawalakhel"
+            },
+            {
+                "subtitle": "● Shankarapur Hospital, Jorpati"
+            },
+            {
+                "subtitle": "● Nidhan Hospital, Pulchowk"
+            },
+            {
+                "subtitle": "● Biratnagar Aspatal, Biratnagar"
+            },
+            {
+                "subtitle": "● Himal Hospital Pvt. Ltd"
+            },
+            {
+                "subtitle": "● Sarvanga Swasthya Sadan, Kupondole"
+            },
+            {
+                "subtitle": "● Swacon International Hospital Ltd, Battisputali"
+            },
+            {
+                "subtitle": "● Suvekchya International Hospital & Research Center, Sitapaila"
+            },
+            {
+                "subtitle": "● Blue Cross Hospital, Tripureshwor"
+            },
+            {
+                "subtitle": "● Kantipur Dental & General Hospital, Dhapasi"
+            },
+            {
+                "subtitle": "● Grande International Hospital, Dhapasi"
+            },
+            {
+                "subtitle": "● Bharatpur Hospital, Chitwan"
+            },
+            {
+                "subtitle": "● Manakamana Hospital, Chitwan"
+            },
+            {
+                "subtitle": "● Devdaha Hospital and Medical College, Butwal"
+            },
+            {
+                "subtitle": "● Star Hospital, Kathmandu"
+            },
+            {
+                "subtitle": "● Metro Kathmandu Hospital, Naryangopal Chowk, Kathmandu"
+            },
+            {
+                "subtitle": "● Ashwins Medical College & Hospital Pvt. Ltd. (Nepal Mediciti), Bhaisepati"
+            },
+            {
+                "subtitle": "● Nepal National Hospital, Kalanki"
+            },
+            {
+                "subtitle": "● Golden Hospital Pvt. Ltd., Biratnagar"
+            },
+            {
+                "subtitle": "● Kaski Model Hospital, Pokhara"
+            },
+            {
+                "subtitle": "● Chitwan Model Hospital, Narayangarh"
+            },
+            {
+                "subtitle": "● Om Hospital and Research Centre(p.) Ltd, Chabahil"
+            },
+            {
+                "subtitle": "● KaliGandaki Hospital, Kawasoti"
+            },
+            {
+                "subtitle": "● Hospital for Advanced Medicine and Surgery (HAMS) Dhumbarahi, KathmanduManakamana Hospital, Chitwan"
+            }
+        ]
+    }
+}

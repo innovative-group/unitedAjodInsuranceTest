@@ -1,0 +1,16 @@
+{
+    "company_profile": {
+        "type": "quick_reply",
+        "title": "United Ajod Insurance Limited is an ISO 9001:2000 certified insurance company.",
+        "data":[
+            {
+            "title":"Our Products", 
+            "payload":"/products"
+        },
+            {
+            "title": "Company Profile",
+            "link": "https://unitedajodinsurance.com/"
+        }
+        ]
+    }
+}

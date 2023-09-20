@@ -1,0 +1,94 @@
+version: "3.1"
+
+nlu:
+  - intent: contact
+    examples: |
+      - where is unitedAjod insurance located?
+      - unitedAjod insurance office in Pokhara
+      - where are you located at?
+      - location of unitedAjod insurance
+      - how many branches of unitedAjod insurance?
+      - where are your offices?
+      - [head office]{"entity":"office_type","value":"main office"}
+      - where is the [corporate]{"entity":"office_type","value":"main office"} office of unitedAjod insurance?
+      - can i get the details of your [head office]{"entity":"office_type","value":"main office"}?
+      - where is the [head office]{"entity":"office_type","value":"main office"} of unitedAjod insurance located?
+      - [branch](office_type) office
+      - where are your [branches]{"entity":"office_type","value":"branch office"}
+      - location of your [branches]{"entity":"office_type","value":"branch office"}
+      - where are you [located]{"entity":"office_type","value":"branch office"} at?
+      - [location]{"entity":"office_type","value":"branch office"} of your company
+      - any [branches]{"entity":"office_type","value":"branch office"} near Banasthali
+      - [address]{"entity":"office_type","value":"branch office"} of your company
+      - Please provide me the links to all your [social media](social_media).
+      - What are your [social media](social_media) handles?
+      - Please give the location of your [main office](office_type).
+      - Can you provide me the address of your [head office]{"entity":"office_type","value":"main office"}?
+      - Give me the location of Butwal [branch]{"entity":"office_type","value":"branch office"}.
+      - I need the address of Birgunj [branch](office_type).
+      - [branch list](office_type) of unitedAjod insurance
+      - give me the [branch list](office_type) of your organization
+      - Can you provide me the exact location of Dhangadi [branch](office_type) office?
+      - Where is the Pokhara [branch](office_type) office located?
+      - how can i contact the [customer support department]{"entity":"office_type", "value":"customer support"}?
+      - email of [customer support](office_type) department of unitedAjod
+      - give me the phone number of [customer support](office_type) of your organization
+      - [customer care]{"entity":"office_type", "value":"customer support"} number
+      - take me to [facebook](social_media)
+      - [facebook](social_media) of unitedAjod
+      - [youtube](social_media) of unitedAjod
+      - [twitter](social_media) of unitedAjod
+      - contact on [facebook](social_media)
+      - Can I reach out to you on [facebook](social_media) or [youtube](social_media)?
+      - How can I contact you on [twitter]{"entity":"social_media","value" :"twitter"} ?
+      - do you have any [social media](social_media) links?
+      - are you on [social media](social_media)?
+      - are you available on any [social platforms](social_media)?
+      - can you provide your [social handles](social_media) please?                                       
+      - Please provide the phone number of Itahari [branch](office_type) office.
+      - Can you give me the email of [head office]{"entity":"office_type","value":"main office"}?
+      - I need the mobile number of Kathmandu [branch](office_type) office.
+      - How can I contact the Kohalpur [branch](office_type) office?
+      - Can I get the contact details of [agent](user_type)?
+      - Provide me the contact information of  insurance [agent](user_type).
+      - How can I reach out to the [agents]{"entity":"user_type", "value":"agent"} ?
+      - I want to talk to the [agents]{"entity":"user_type", "value":"agent"}.
+      - I am planning to do insurance. How can I connect with [agents]{"entity":"user_type", "value":"agent"} ?
+      - Can i talk to [agent](user_type)? I want to purchase insurance.
+      - How can I get the phone number of  insurance [agents]{"entity":"user_type","value":"agent"} ?
+      - I need to contact to the [agent](user_type) for insurance.
+      - How can I talk to  insurance [agents]{"entity":"user_type","value":"agent"} .
+      - I am interested to talk with [agents]{"entity":"user_type", "value":"agent"}?
+      - Provide me the contact details of [agents]{"entity":"user_type", "value":"agent"}. I want to buy a  insurance product.
+
+      - What is the [phone]{"entity":"office_type","value":"main office"} number of unitedAjod insurance?
+      - How can I [contact]{"entity":"office_type","value":"main office"} to your company?
+      - What is your [email]{"entity":"office_type","value":"main office"} adddress?
+      - Can I get your contact details?
+      - Can I get [phone]{"entity":"office_type","value":"main office"} number of siddhartha insurance?
+      - Give the [phone]{"entity":"office_type","value":"main office"} no of your company
+      - What is your [contact]{"entity":"office_type","value":"main office"} number?
+      - What is your [email]{"entity":"office_type","value":"main office"} address?
+      - [mail]{"entity":"office_type","value":"main office"} id
+
+
+
+  - lookup: social_media
+    examples: |
+      - facebook
+      - twitter
+      - youtube
+
+  - synonym: address
+    examples: |
+      - location
+      - located
+
+  - synonym: facebook
+    examples: |
+      - fb
+
+  - synonym: information
+    examples: |
+      - details
+      - info

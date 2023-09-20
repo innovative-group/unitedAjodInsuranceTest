@@ -1,0 +1,31 @@
+version: "3.1"
+
+nlu:
+  - intent: benefits
+    examples: |
+      - why should i purchase non-life insurance?
+      - do i really need insurance?
+      - is insurance really necessary?
+      - why do I need non life insurance?
+      - What benefits will I get if I buy a nonlifeinsurance policy?
+      - Why should I purchase a non-life insurance policy from you?
+      - benefits of purchasing policy from siddhartha insurance
+      - advantages of doing non-life insurance
+      - what are the advantages of purchasing a non life insurance policy?
+      - what will I get in return after doing my non-life insurance
+      - what does the non life insurance cover?
+
+      - What are the benefits of purchasing [health](product_type) insurance from your company?
+      - why should i buy [motor](product_type) insurance policy?
+      - what are the benifits of [property](product_type) insurance?
+
+      - tell me the benefits of [health](product_type) insurance.
+      - how will i get benefitted if i purchase [motor](product_type) insurance?
+
+      - i want to know the benefits of [health](product_type) insurance.
+      - why should i do [motor](product_type) insurance?
+      - what are the advantages of [property](product_type) insurance.
+
+      - benefits of different insurance policies
+      - advantages of non life insurance
+      - tell me the benefits of non-life insurance plans
