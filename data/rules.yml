@@ -98,6 +98,7 @@ rules:
     - action: action_reset_slots 
 
 
+
 - rule: say about payment
   steps:
     - intent: payment
@@ -131,14 +132,53 @@ rules:
     - action: action_hospital_list
     - action: action_reset_slots    
 
-- rule: say about documents required
+
+
+- rule: say about claim
   steps:
-    - intent: documents_required
-    - action: action_documents_required
+    - intent: about_claim
+    - action: action_about_claim
+    - action: action_reset_slots        
+
+
+
+- rule: say about file a claim
+  steps:
+    - intent: file_a_claim
+    - action: action_file_a_claim
     - action: action_reset_slots    
+
+
+
+- rule: say about documents required for claim
+  steps:
+    - intent: document_required
+    - action: action_document_required
+    - action: action_reset_slots    
+
+
+
+- rule: say about claim status
+  steps:
+    - intent: claim_status
+    - action: action_claim_status
+    - action: action_reset_slots    
+    
+
+
+
+
 
 - rule: say about downloads
   steps:
     - intent: downloads
     - action: action_downloads
-    - action: action_reset_slots        
+    - action: action_reset_slots 
+
+
+- rule: say about claim status
+  steps:
+    - intent: claim_or_purchase_procedure
+    - action: action_claim/purchase_procedure
+    - action: action_reset_slots  
+    

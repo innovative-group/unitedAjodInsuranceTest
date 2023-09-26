@@ -1,59 +1,54 @@
 {
-    "head_office": {
+    "headOffice": {
         "type": "contact",
-        "title": "Dear customer, you can contact us at:",
+        "title": "Dear customer, following is the contact details of our head office and the social media links.",
         "backIcon": {
-            "title": "Back",
-            "payload": "menu"
+          "title": "Back",
+          "payload": "menu"
         },
         "data": {
-            "Name": "Head-Office",
-            "subtitle": " CTC Mall (7th Floor), Sundhara, Kathmandu",
-            "button": {
-                "title": "Branch Details",
-                "payload": "/contact{\"office_type\":\"branch list\"}"
+          "Name": "Head Office",
+          "subtitle": "CTC Mall (7th Floor), Sundhara, Kathmandu",
+    
+          "info": [
+            {
+              "title": "Email",
+              "key": "Email",
+              "value": "info@unitedajodinsurance.com"
             },
-            "info":
-                {
-                    "title": "Email",
-                    "key": "Email",
-                    "value": "info@unitedAjodinsurance.com"
-                },
-                {
-                    "title": "Phone",
-                    "key": "Phone",
-                    "value": "+977-01-5343072"
-                },
-                {
-                    "title": "Fax",
-                    "key": "Fax",
-                    "value": "+977 01 5344013"
-                }
-            ],
-            "map": {
-                "title": "map",
-                "latitude": 27.6933,
-                "longitude": 85.32662
+            {
+              "title": "Phone",
+              "key": "Phone",
+              "value": "01-5344013/01-5343072"
             },
-            "facebook": [
-                {
-                    "title": "Facebook",
-                    "img": "images/banner/facebook.png",
-                    "link": "https://www.facebook.com/unitedAjod.insurance"
-                },
-                {
-                    "title": "YouTube",
-                    "img": "images/banner/youtube.png",
-                    "link": "https://www.youtube.com/channel/UC88oS2KeViFShKXSP3ta31g"
-                },
-                {
-                    "title": "Twitter",
-                    "img": "images/banner/twitter.png",
-                    "link": "https://twitter.com/UnitedAjodinsu1"
-                }
-            ]
+            {
+              "title": "Toll Free",
+              "key": "toll-free",
+              "value": "16600186496"
+            }
+          ],
+    
+          "facebook": [
+            {
+              "title": "Facebook",
+              "img": "images/banner/facebook.png",
+              "link": "https://www.facebook.com/unitedajodinsurancelimited"
+            },
+            {
+              "title": "Instagram",
+              "img": "images/banner/instagram.png",
+              "link": "https://www.instagram.com/unitedajodinsurancelimited/"
+            },
+            {
+              "title": "LinkedIn",
+              "img": "images/banner/linkedin.png",
+              "link": "https://www.linkedin.com/company/uicnepal/"
+            }
+    
+          ]
         }
-    },
+      },
+
     "branch_office": {
         "type": "location",
         "title": "Please type the place or send your current location to get the details about nearest branch.",
@@ -78,6 +73,7 @@
             ]
         }
     },
+
     "branch_list": {
         "type": "detailpolicy",
         "title": "Following are the branch details of SPIL.",
@@ -112,7 +108,6 @@
                 "Branch": "021-590219",
                 "fax": "021-573266",
                 "AccountNumber": "biratnagar2@unitedajodinsurance.com"
-          
             },
             {
                 "Sn": 3,

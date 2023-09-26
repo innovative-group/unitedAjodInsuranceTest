@@ -18,7 +18,6 @@ nlu:
       - No one to assist me, very bad company.
       - I am not satisfied with your services.
       - I want to advise you to improve your services.
-      - I paid my premium but didn't get any message.
       - how to register my [complaint]{"entity":"feedback_type", "value":"complain"}
       - I have a [complain](feedback_type)
       - Why follow up has not been made regarding my policy until now?
@@ -32,17 +31,28 @@ nlu:
       - You have to modify your policy terms and conditions.
       - I applied to become an agent, but I haven't received any confirmation from you.
       - I am unable to pay from khalti.
-      - Why are you not replying to me on facebook?
       - how can i fill up the [feedback](feedback_type) [form](document)?
       - where is the [feedback](feedback_type) [form](document)?
-      - where can i find the [complain](feedback_type) [form](document)?
-      - provide me the [complain](feedback_type) [form](document).
       - insurance is a huge scam.
       - very bad company
       - Your website is very slow.
       - You are replying very slowly.
       - This chatbot is very slow.
 
-  - synonym: complain
-    examples: |
-      - complaint
+
+
+
+      - Tell me how I can submit [complaint]{"entity":"feedback_type", "value":"complain"}?
+      - I want to make a [complain](feedback_type)
+      - I paid my premium but didn't get any message.
+      - how to register my [complaint]{"entity":"feedback_type", "value":"complain"}
+      - I have a [complain](feedback_type)
+      - I want to file [complaint]{"entity":"feedback_type", "value":"complain"}.
+      - I have a [complaint]{"entity":"feedback_type", "value":"complain"}. 
+      - Why are you not replying to me on facebook?
+      - where can i find the [complain](feedback_type) [form](document)?
+      - provide me the [complain](feedback_type) [form](document).
+      - your system is talking more time to load 
+      - slow response system
+
+

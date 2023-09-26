@@ -19,6 +19,7 @@ class ActionPremiumCalculation(Action):
         calculation_type = tracker.get_slot("calculation_type")
 
         if product_type == "motorbike":
+            print("I am inside motorbike")
             if calculation_type == "third party":
                 try:
                     with open('actions/responses/premium_calculation.json', 'r', encoding="utf8") as f:
@@ -57,7 +58,7 @@ class ActionPremiumCalculation(Action):
                 )
                 return[]
 
-        elif product_type == "private vehicle":
+        elif product_type == "private_vehicle":
             if calculation_type == "third party":
                 try:
                     with open('actions/responses/premium_calculation.json', 'r', encoding="utf8") as f:
@@ -97,58 +98,7 @@ class ActionPremiumCalculation(Action):
                     ]
                 )
                 return[]
-        elif product_type == "commercial vehicle":
-            if calculation_type == "third party":
-                try:
-                    with open('actions/responses/premium_calculation.json', 'r', encoding="utf8") as f:
-                        data = json.load(f)
-                        response = data.get(
-                            'third_party_calculation_of_commercial_vehicle')
-                        dispatcher.utter_message(json_message=response)
-
-                except Exception as error:
-                    print(error)
-                return[]
-
-            elif calculation_type == "comprehensive":
-                try:
-                    with open('actions/responses/premium_calculation.json', 'r', encoding="utf8") as f:
-                        data = json.load(f)
-                        response = data.get(
-                            'comprehensive_calculation_of_commercial_vehicle')
-                        dispatcher.utter_message(json_message=response)
-
-                except Exception as error:
-                    print(error)
-                return[]
-
-            else:
-                dispatcher.utter_message(
-                    text=f"Please select the options below for Third Party or Comprehensive (Full Coverage) for Commercial Vehicle insurance.",
-                    buttons=[
-                        {
-                            "title": "Third Party",
-                            "payload": f"/premium_calculation{{\"product_type\":\"commercial vehicle\", \"calculation_type\":\"third party\"}}"
-                        },
-                        {
-                            "title": "Comprehensive",
-                            "payload": f"/premium_calculation{{\"product_type\":\"commercial vehicle\", \"calculation_type\":\"comprehensive\"}}"
-                        }
-                    ]
-                )
-                return[]
-
-        elif product_type == "tmi":
-            try:
-                with open('actions/responses/premium_calculation.json', 'r', encoding="utf8") as f:
-                    data = json.load(f)
-                    response = data.get('premium_calculation_travel')
-                    dispatcher.utter_message(json_message=response)
-
-            except Exception as error:
-                print(error)
-            return[]
-
+        
         else:
             dispatcher.utter_message(
                 text=f"Please choose the options below to calculate premium.",

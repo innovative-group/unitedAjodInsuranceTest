@@ -4,45 +4,43 @@ nlu:
   - intent: premium_calculation
     examples: |
       - premium calculation
-      - How to calculate premium?
-      - I want to calcuate premium
-      - calculate premium
-      - Where is premium calculation? 
+      - Tell me about premium calculation? 
+      - for what products does your company provide premium calculations ?
+      - list of product to which your company will provide premium calculations.
       - Premium calculator
-      - how much money is needed for [motorbike]{"entity":"product_type", "value":"motorB"} insurance?
-      - how can i calculate the premium amount?
-      - What are the premium rates for different types of [vehicle](product_type) insurance policies?
-      - How much does medical insurance cost?
-      - How much money is required to purchase a policy?
-      - Cost of engineering insurance
-      - How much should I pay to issue a new policy for [travel]{"entity":"product_type", "value":"miscellaneous"} insurance?
-      - What is the cost of buying [property](product_type) insurance policy?
-      - Is [agriculture](product_type) insurance affordable?
-      - I earn very less money. Can I afford [health](product_type) insurance?
-      - Is [marine](product_type) insurance expensive?
-      - What factors determine the cost of [bank]{"entity":"product_type", "value":"miscellaneous"} insurance?
-      - What factors affect the premium rates for [fidelity guarentee]{"entity":"product_type", "value":"miscellaneous"} insurance policies?
-      - What are the rates of different [health](product_type) insurance policies?
-      - How much amount will be returned to me at the end?
-      - How much money can I receive after the maturity of my policy?
-      - Which is the cheapest policy for [medical]{"entity":"product_type", "value":"health"} insurance?
-      - Please provide me the most affordable [machinery]{"entity":"product_type", "value":"engineering"} insurance options.
+      - How much money is required to purchase premium policy?
 
-      - what is the way to calculate my premium
-      - how can i see premium of [motor cycle]{"entity":"product_type", "value":"vehicle"}
-      - can i calculate premium of [private vehicle](product_type)
+      - [motorbike](product_type) insurance
+      - how much money is needed for [motorbike]{"entity":"product_type", "value":"motorbike"} insurance?
+      - how can i see premium of [motor cycle]{"entity":"product_type", "value":"motorbike"}
+      - my private [motor]{"entity":"product_type", "value":"motorbike"} premium
+      - i want to know the [third party](calculation_type) insurance premium rate of my [motorbike]{"entity":"product_type", "value":"motorbike"}
+      - how to calculate the [third party](calculation_type) of [motorbike] {"entity":"product_type", "value":"private_vehicle"} insurance
+      - I earn very less money. Can I afford [motorbike](product_type) insurance?
+      - What is the cost for [comprehensive](calculation_type) insurance for [motorbike]{"entity":"product_type", "value":"motorbike"} insurance?
 
-      - my private [motor](product_type) premium
-      - how much is my premium for commercial [vehicle](product_type)
-      - my [taxi]{"entity":"product_type", "value":"vehicle"} premium for [full coverage](calculation_type)
-      - premium of [agriculture](product_type)
-      - i would like to do a [third party](calculation_type) risk insurance for my [vehicle](product_type) how much will be the premium
-      - How much premium i need to pay for [property](product_type) insurance
-      - What is the cost for [comprehensive](calculation_type) insurance for [vehicle](product_type) insurance?
-      - cost of [tractor]{"entity":"product_type", "value":"vehicle"} insurance
 
-      - how much is the [comprenshive](calculation_type) premium cost
-      - i want to know the [third party](calculation_type) insurance premium rate of my [motorbike]{"entity":"product_type", "value":"vehicle"}
-      - how to calcculate the [third party](calculation_type) insurance
-      - i wanna check how much it cost for [full coverage](calculation_type) insurance of my [vehicle](product_type)
-      - total cost i need to pay for my [home]{"entity":"product_type", "value":"property"} insurance
+      - What are the premium rates for different types of [vehicle]{"entity":"product_type", "value":"private_vehicle"} insurance policies?   
+      - I earn very less money. Can I afford my [car](product_type) insurance?
+      - my [taxi]{"entity":"product_type", "value":"private_vehicle"} premium for [full coverage](calculation_type)
+      - i would like to do a [third party](calculation_type) risk insurance for my [vehicle]{"entity":"product_type", "value":"private_vehicle"} how much will be the premium
+      - can i calculate premium of [private vehicle]{"entity":"product_type", "value":"private_vehicle"}
+      - What is the cost for [comprehensive](calculation_type) insurance for [vehicle]{"entity":"product_type", "value":"private_vehicle"} insurance?
+      - cost of [tractor]{"entity":"product_type", "value":"private_vehicle"} insurance
+      - how much is the [comprenshive](calculation_type) for my [car] {"entity":"product_type", "value":"private_vehicle"} insurance premium cost
+      - i wanna check how much it cost for [full coverage](calculation_type) insurance of my [vehicle]{"entity":"product_type", "value":"private_vehicle"}
+
+      
+
+
+      
+      
+      
+
+      
+      
+      
+      
+
+      
+      

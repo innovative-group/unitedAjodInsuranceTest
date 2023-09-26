@@ -13,18 +13,18 @@ intents:
   - product_info
   - details
   - view_details
-  - procedure
   - feedback
   - payment
   - premium_calculation
   - purchase
   - renew
   - cancel_subscription
-  - documents_required
+  - document_required
   - downloads
   - faq
   - office_time
   - hospital_list
+  - file_a_claim
   
 
 
@@ -43,9 +43,12 @@ entities:
   - document
   - company_info
   - method
-  - file_a_claim
+
+  - about_claim  
   - claim_status
-  - about_claim
+  - claim_doc
+  - claimType
+  
   - details
   - payment_option
   - wallet_name
@@ -55,6 +58,7 @@ entities:
   - action_purchase
   - feedback_type
   - form_type
+  - procedure_for
   
   
   
@@ -117,6 +121,12 @@ slots:
       - type: from_entity
         entity: method        
 
+  claimType:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: claimType
 
 
 
@@ -150,8 +160,7 @@ slots:
     influence_conversation: true
     mappings:
       - type: from_entity
-        entity: insurance_info                 
-
+        entity: insurance_info     
 
   payment_option:
     type: text
@@ -196,6 +205,22 @@ slots:
     mappings:
       - type: from_entity
         entity: form_type
+
+
+  claim_doc:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: claim_doc
+        
+  procedure_for:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: procedure_for
+          
 
 
 
@@ -258,9 +283,17 @@ actions:
   - action_faq
   - action_office_time
   - action_hospital_list
-  - action_documents_required
   - action_downloads
   - validate_feedback_complaints_form
   - action_reset_feedback_complaints_slot
   - action_feedback_submit
   - action_callback
+
+  - action_about_claim
+  - action_document_required
+  - action_file_a_claim
+  - action_claim_status
+  - action_claim/purchase_procedure
+  
+
+

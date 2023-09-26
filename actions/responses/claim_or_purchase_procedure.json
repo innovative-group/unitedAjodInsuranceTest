@@ -1,0 +1,120 @@
+{
+    "insurance_claim_procedure": {
+        "title": "The claim procedure is as follows:",
+        "type": "ListItem",
+        "button": [
+            {
+                "title": "Register Your Claim",
+                "payload": "/file_a_claim}"
+            }
+        ],
+        "subtitle": "Claim Procedure",
+        "multi": true,
+        "data": [
+            {
+                "subtitle": "● Claim Intimation/Register",
+                "subdata": {
+                    "detail": "Give intimation to the company by phone or email at info@siddharthainsurance.com as soon as the incident happens."
+                }
+            },
+            {
+                "subtitle": "● Survivor Deputation",
+                "subdata": {
+                    "detail": "After the claim has been reported, the company will investigate the claimed loss covered by your issued policy, and if found to be processed, the claim will be recorded in the system."
+                }
+            },
+            {
+                "subtitle": "● Claim Assessment",
+                "subdata": {
+                    "detail": "After investigating the type and extent of the loss, the company may assign a qualified surveyor to make an evaluation of the loss, settle the claim by assigning it to the surveyor, or collect the necessary documentation from the insured."
+                }
+            },
+            {
+                "subtitle": "● Claim Approval",
+                "subdata": {
+                    "detail": "The concerned department creates a note and sends it for approval to the appropriate authorities after confirming all of the given documents."
+                }
+            },
+            {
+                "subtitle": "● Discharge Voucher",
+                "subdata": {
+                    "detail": "After getting approval, a discharge voucher with the approved amount and all important information will be issued."
+                }
+            },
+            {
+                "subtitle": "● Forwarded to Account",
+                "subdata": {
+                    "detail": "Payment will be completed upon receipt of a duly signed discharge voucher by issuing a check in the client's name or initiating an online transfer."
+                }
+            },
+            {
+                "subtitle": "● Claim Settlement",
+                "subdata": {
+                    "detail": "At this moment, the claim has to be settled and the amount will be deposited into your account; if not, please contact our nearest branch."
+                }
+            }
+        ]
+    },
+
+    "insurance_purchase_Procedure": {
+        "title": "Step-by-Step guide to insurance issuance",
+        "type": "ListItem",
+        "subtitle": "Insurance Issuance Procedure",
+        "multi": false,
+        "button": [
+          {
+            "title": "Purchase Now",
+            "payload": "Purchase Now"
+          },
+          {
+            "title": "Our Products",
+            "payload": "Products"
+          }
+        ],
+        "data": [
+          {
+            "subtitle": "● Selection of Product",
+            "subdata": {
+              "detail": "When you are going for insurance first you should need to choose the product. There are so many products of insurance company which are mentioned in products section. So you should be confirmed which insurance you are interested in."
+            }
+          },
+          {
+            "subtitle": "● Proposal Form",
+            "subdata": {
+              "detail": "Every product has its own proposal form, so when you select a product you should fill the proposal form where it contains details of the insured person and the insured property."
+            }
+          },
+          {
+            "subtitle": "● Survey of Property",
+            "subdata": {
+              "detail": "Insurance Companies have their own surveyors who survey the insured properties and prove if they are right or not?"
+            }
+          },
+          {
+            "subtitle": "● Acceptance of Proposal",
+            "subdata": {
+              "detail": "After all the above processes are done, then the insurance company is ready to accept your proposal. It means the insurance company gets all details about the insured person and properties as well as all the necessary requirements."
+            }
+          },
+          {
+            "subtitle": "● Issue of Debit Note",
+            "subdata": {
+              "detail": "A debit note is a document used by a vendor to inform the buyer of current debt obligations. So the insurance company also issues the debit note first where all the details of premium, covered risk, contracted time period, and other information are clearly defined."
+            }
+          },
+          {
+            "subtitle": "● Payment",
+            "subdata": {
+              "detail": "After receiving a debit note if you should be satisfied then you pay the total premium amount to the insurance company which is called the payment process."
+            }
+          },
+          {
+            "subtitle": "● Issue of Insurance Policy",
+            "subdata": {
+              "detail": "Finally, the Insurance Company issues an insurance policy which is generally an integrated contract, including all forms associated with the agreement between the insured and insurer."
+            }
+          }
+        ]
+      }
+    
+}

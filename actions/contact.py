@@ -24,7 +24,7 @@ class ActionContact(Action):
             try:
                 with open('actions/responses/contact.json', 'r') as f:
                     data = json.load(f)
-                    response = data.get("head_office")
+                    response = data.get("headOffice")
                     dispatcher.utter_message(json_message=response)
             except Exception as error:
                 print(error)

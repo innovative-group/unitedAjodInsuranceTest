@@ -1,6 +1,4 @@
-version: "3.1"
 
-nlu:
 - intent: downloads
   examples: |
     - Where can I get the [kyc](fom_type) forms?

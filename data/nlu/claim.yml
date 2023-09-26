@@ -6,26 +6,53 @@ nlu:
       - Where can I make a claim?
       - Tell me where to file a claim.
       - I need to make a claim. Where should I contact?
-      - How can I register the claim [online](method)?
+      - How can I register the [online claim](method)
       - How to make an insurance claim?
       - Where should I submit the claim?
       - Where can i register property insurance claim?
       - I want to file a claim.
-      - i want to make an [online](method) claim
+      - i want to make an [online claims]{"entity":"method", "value":"online claim"}
       - What is the method to file the medical insurance claim?
       - how can i file the personal accident claim?
       - How can I register the vehicle insurance claim?
       - Tell me the process to file a claim for bike accident.
       - I want to claim.
-      - I want to report a claim [online](method)
+      - I want to report a [online claim](method)
       - where can i to file a claim for health insurance?
       - where can i register the property insurance claim?
-      - help me to register my claim [online](method) 
+      - help me to register my [online claim](method)
+
+      
+      - I want to contact your office for claim provide the [contact](method) of your office..
+      - what is your office [contact](method) I need to do a claim.
       - what is the way to file a claim after damage to my property?
+      
+
+      - [motor insurance claim](claimType)
+      - [online claim](method)
+      - I want to file a [motor insurance claim](claimType) through [online]{"entity":"method", "value":"online claim"} for my stolen car.
+      - How can I report a [car insurances claim]{"entity":"claimType", "value":"motor insurance claim"}from [online]{"entity":"method", "value":"online claim"}?
+      - Is it possible to initiate a [vehicle motor insurance]{"entity":"claimType", "value":"motor insurance claim"} claim through the [online process]{"entity":"method", "value":"online claim"}?
+      - I want to do [online claim](method) of my [bike insurance]{"entity":"claimType", "value":"motor insurance claim"}.
+      - Is it possible to claim [motorcylcle insurance]{"entity":"claimType", "value":"motor insurance claim"} through [online]{"entity":"method", "value":"online claim"}?
+      - I need to start a [motor insurance claim](claimType) [online-claim]{"entity":"method", "value":"online claim"} for my damaged vehicle.
+      - What is the [online procedure]{"entity":"method", "value":"online claim"} for initiating a [house insurance]{"entity":"claimType", "value":"motor insurance claim"} claim?
+      - Can you guide me through the [online process]{"entity":"method", "value":"online calim"} for my [car insurance claim]{"entity":"claimType", "value":"motor insurance claim"} ?
+      - I want to make an [claim online]{"entity":"method", "value":"online claim"} of my [motors-insurance claim]{"entity":"claimType", "value":"motor insurance claim"}.
+
+      - [non motor insurance claim](claimType)
+      - I want to file a [house insurance claim]{"entity":"claimType", "value":"non motor insurance claim"} through [online]{"entity":"method", "value":"online claim"} for my fire damage.
+      - How do I report a [health insurance claim]{"entity":"claimType", "value":"non motor insurance claim"} [through online]{"entity":"method", "value":"online claim"} for my surgery?
+      - Is there an [online option]{"entity":"method", "value":"online claim"} to claim for insurance of [loss of property]{"entity":"claimType", "value":"non motor insurance claim"} policy?
+      - I need to make an insurance [online-claims]{"entity":"method", "value":"online claim"} for my [travel insurance]{"entity":"claimType", "value":"non motor insurance claim"} for my trip cancellation.
+      - My valuable [jewelry]{"entity":"claimType", "value":"non motor insurance claim"} was stolen. Can I start an online claim for my insurance?
+      - What is the [online procedure]{"entity":"method", "value":"online claim"} to claim [life insurance]{"entity":"claimType", "value":"non motor insurance claim"}?
+      - Can you assist me in initiating an [online-claim]{"entity":"method", "value":"online claim"} for my [business interruption insurance]{"entity":"claimType", "value":"non motor insurance claim"}?
 
   - intent: claim_status
     examples: |
 
+      
       - I want to know the status of my claim.
       - Please tell me about my claim status.
       - I had registered my claim few days ago, what is it's status?
@@ -34,13 +61,18 @@ nlu:
       - I had made a claim for my bike insurance, can you tell me the status?
       - i had filed a claim two months ago, can I check where is the status now?
       - may i know the claim status?
-      - i want to track claim status [online](method).
-      - how can i track my claim [online](method)?
+      - i want to track claim status [online]{"entity":"method", "value":"online claim"}.
+      
+      - how can i track my [claim online]{"entity":"method", "value":"online claim"}?
       - i want to check my claim.
       - what is my claim status?
-      - can i check status of my claim [online](method)?
+      - can i check status of my claim online?
       - please tell me how to know my claim status.
-      - i want to track my claim status [online](method).
+      - i want to track my claim status [online claims](method).
+
+
+ 
+
 
   - intent: about_claim
     examples: |
@@ -52,3 +84,107 @@ nlu:
       - about claim
       - claim related services
       - information related to claim
+
+
+
+  - intent: document_required
+    examples: | 
+      - [Engineering Claim](claim_doc)
+      - What documents do I need to file an [engineering]{"entity":"claim_doc", "value":"engineering claim"} claim?
+      - I want to do [engineering-claim]{"entity":"claim_doc", "value":"engineering claim"}.
+      - Can you please list the necessary documents for an [engineering]{"entity":"claim_doc", "value":"engineering claim"} claim?
+      - I am submitting an [engineering claims]{"entity":"claim_doc", "value":"engineering claim"}. What paperwork is required?
+      - Tell me the documents I should prepare for an [engineering claim]{"entity":"claim_doc", "value":"engineering claim"}.
+      - What are the essential documents for processing an [engineering]{"entity":"claim_doc", "value":"engineering claim"} claim?
+      - For my [engineering claim]{"entity":"claim_doc", "value":"engineering claim"}, which documents should I provide?
+      - I need information on the documents needed for an [engineering]{"entity":"claim_doc", "value":"engineering claim"} claim.
+
+
+
+      - [fire claim](claim_doc)
+      - what are the necessary documents to make [fire claim](claim_doc)
+      - What documents are mandatory for a [fire claims](claim_doc)
+      - Please specify the documents necessary to [claim Fire insurance]{"entity":"claim_doc", "value":"fire claim"}.
+      - I am making a [fire insurance claim]{"entity":"claim_doc", "value":"fire claim"}. can you outline the required documents? 
+      - List the documents that are related to claim [fire-insurance claim]{"entity":"claim_doc", "value":"fire claim"}, please. 
+      - To process claim for [fire disaster claim]{"entity":"claim_doc", "value":"fire claim"} Claim, what paperwork do I need to submit? 
+      - What documents must I provide for a [fire burn claim]{"entity":"claim_doc", "value":"fire claim"} Claim? 
+      - I require details on the documentation needed for a [fire damaged claim]{"entity":"claim_doc", "value":"fire claim"} Claim.
+
+
+
+      - [theft claim](claim_doc)
+      - What documents do I need to file a [vehicle theft claims]{"entity":"claim_doc", "value":"theft claim"}?
+      - I want to make a  for my [stolen claim]{"entity":"claim_doc", "value":"theft claim"}. What documents should I submit?
+      - How do I process a [theft-claim](claim_doc) of my vehicle ? What documents are required?
+      - My car was stolen. Can you tell me the documents needed for a [theft claims]{"entity":"claim_doc", "value":"theft claim"}?
+      - What are the essential documents for a [vehicle theft claim]{"entity":"claim_doc", "value":"theft claim"}?
+      - Can you provide information on the documentation required for a [theft-claims]{"entity":"claim_doc", "value":"theft claim"}?
+      - [bike theft claim]{"entity":"claim_doc", "value":"theft claim"} documents.
+
+
+      - [marine insurance claim](claim_doc)
+      - What documents do I need for a [marine insurance claims]{"entity":"claim_doc", "value":"marine insurance claim"}?
+      - Can you please specify the necessary documents for a [marin claims]{"entity":"claim_doc", "value":"marine claim"}?
+      - Im submitting a [margin cargo claim]{"entity":"claim_doc", "value":"marine insurance claim"} . What documents should I include?
+      - Tell me the documents required to process a [marin hull claim]{"entity":"claim_doc", "value":"marine claim"}.
+      - What are the essential documents for a [marin loss claim]{"entity":"claim_doc", "value":"marine insurance claim"}?
+      - Which documents should I provide for my [marin damage claim]{"entity":"claim_doc", "value":"marine insurance claim"}?
+      - I need details on the documentation needed for a [Marine Liability Claim]{"entity":"claim_doc", "value":"marine insurance claim"}.
+
+
+
+      - [accident claim](claim_doc)
+      - What documents are required for a [personal accident claim]{"entity":"claim_doc", "value":"accident claim"}.?
+      - Please list the necessary documents for a [personal-accident-claim]{"entity":"claim_doc", "value":"accident claim"}.
+      - Im making a [group personal accident claim]{"entity":"claim_doc", "value":"accident claim"} . What documents should I prepare?
+      - Specify the documents needed for processing a [medical disability claim]{"entity":"claim_doc", "value":"accident claim"} .
+      - What documents must I provide for a [personal accident]{"entity":"claim_doc", "value":"accident claim"} Claim?
+      - Can you provide information on the documents required for a [group personal accident]{"entity":"claim_doc", "value":"accident claim"} Claim?
+      - paperwork needed for [medical disability claim]{"entity":"claim_doc", "value":"accident claim"}
+      - I got into [accident]{"entity":"claim_doc", "value":"accident claim"} how can I claim the insurance. 
+
+
+      - [micro insurance claim](claim_doc)
+      - What documents are necessary for a [micro insurance claim](claim_doc)
+      - Can you outline the required documents for a [micro-insurance-claim]{"entity":"claim_doc", "value":"micro insurance claim"}?
+      - Im filing a [low cost insurance claim]{"entity":"claim_doc", "value":"micro insurance claim"}. What documents do I need?
+      - List the documents I should gather for my [microfinance insurance claims]{"entity":"claim_doc", "value":"micro insurance claim"}.
+      - For processing my [micro insurance claims]{"entity":"claim_doc", "value":"micro insurance claim"}, which documents are essential?
+      - What paperwork should I include with my [micro insurance claim](claim_doc)
+      - Please provide information on the documents needed for a [claim of micro insurance]{"entity":"claim_doc", "value":"micro insurance claim"}.
+
+
+
+      - [third party claim](claim_doc)
+      - What documents do I need for a [third-party-claim]{"entity":"claim_doc", "value":"third party claim"} Damage Claim?
+      - Can you specify the necessary documents for a [third party claims]{"entity":"claim_doc", "value":"third party claim"}?
+      - Im submitting a [third party claim](claim_doc) of my property loss claim. What documents are essential?
+      - Tell me the documents required for processing a [third party claims]{"entity":"claim_doc", "value":"third party claim"}.
+      - What are the essential documents for a [third-party-claim]{"entity":"claim_doc", "value":"third party claim"} for damage of Property ?
+      - Which documents should I provide for my [third party property damage]{"entity":"claim_doc", "value":"third party claim"} Claim?
+      - I need details on the documentation needed for a [third party liability claim]{"entity":"claim_doc", "value":"third party claim"}.
+
+
+      - [motor policy claim](claim_doc)
+      - What documents are mandatory for a [motor policy claim](claim_doc)?
+      - Please specify the necessary documents for a [motor policy claims]{"entity": "claim_doc", "value": "motor policy claim"}.
+      - I'm making a [motor claim]{"entity": "claim_doc", "value": "motor policy claim"}; can you outline the required documents?
+      - List the documents I should gather to claim [motor policy claim](claim_doc)
+      - What documents must I provide for a [motor policy claims]{"entity": "claim_doc", "value": "motor policy claim"}?
+      - My motor got damaged Can you provide information on the documents needed for a [motors policys]{"entity": "claim_doc", "value": "motor policy claim"}?
+
+      - [human death claim](claim_doc)
+      - What documents do I need for a claim involving [passenger death]{"entity": "claim_doc", "value": "human death claim"}
+      - list the document need to claim for [passenger treatment]{"entity": "claim_doc", "value": "human death claim"}
+      - Can you specify the necessary documents for a claim related to [driver death]{"entity": "claim_doc", "value": "human death claim"}
+      - I need details on the documentation needed for a claim related to [drivers Treatment]{"entity": "claim_doc", "value": "human death claim"}
+      - I'm filing a claim for [helper treatment]{"entity": "claim_doc", "value": "human death claim"}. What documents are essential?
+      - Tell me the documents required for processing a claim involving [Helper Treatment]{"entity": "claim_doc", "value": "human death claim"}
+      - What are the essential documents for a claim related to [TP Treatment]{"entity": "claim_doc", "value": "human death claim"}
+      - Which documents should I provide for my claim involving [Passenger Treatment]{"entity": "claim_doc", "value": "human death claim"}
+    
+
+
+
+

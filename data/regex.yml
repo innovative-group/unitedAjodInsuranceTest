@@ -1,0 +1,2 @@
+regex:
+- claim_doc: \b(claim\s+)?(passenger|driver|helper|tp person)\s+(treatment|death)(\s+claim)?\b

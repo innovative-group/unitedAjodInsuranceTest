@@ -8,47 +8,43 @@
         "data": [
           {
             "title": "Products",
-            "payload": "Products",
+            "payload": "/product_info",
             "icon": "images/menu/product.png"
           },
           {
             "title": "Policy Services",
-            "payload": "Policy Services",
+            "payload": "/policy",
             "icon": "images/menu/policy.png"
           },
     
           {
-            "title": "Purchase / Renew",
-            "payload": "Purchase / Renew",
+            "title": "Purchase",
+            "payload": "/purchase",
             "icon": "images/menu/purchaseandrenew.png"
           },
           {
             "title": "Claim",
-            "payload": "Claim",
+            "payload": "/about_claim",
             "icon": "images/menu/claim.png"
           },
           {
-            "title": "Branch",
-            "payload": "Branch",
+            "title": "Contact Us",
+            "payload": "/contact",
             "icon": "images/menu/location.png"
           },
           {
             "title": "Payment",
-            "payload": "Payment",
+            "payload": "/payment",
             "icon": "images/menu/payment.png"
           },
           {
             "title": "Premium Calculator",
-            "payload": "Calculation",
+            "payload": "/premium_calculation",
             "icon": "images/menu/calculator.png"
           },
+     
           {
-            "title": "Complaint",
-            "payload": "Complaint",
-            "icon": "images/menu/complaint.png"
-          },
-          {
-            "title": "Feedback",
+            "title": "Feedback/complain",
             "payload": "Feedback",
             "icon": "images/menu/feedback.png"
           }

@@ -72,12 +72,3 @@ class ActionFeedback(Action):
             return[]
 
 
-# class ResetFeedback(Action):
-#     def name(self):
-#         return "action_reset_feedback"
-
-#     def run(self, dispatcher, tracker, domain):
-#         return [
-#             SlotSet("feedback_type", None),
-#             SlotSet("document", None)
-#         ]

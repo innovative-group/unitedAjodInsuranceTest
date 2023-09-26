@@ -73,6 +73,9 @@
         },
         "post": "rest/v1/siddartha/Policy/GetClaimDetails"
     },
+
+
+    
     "file_a_claim": {
         "type": "formMessageSection",
         "exitMSG": "Oops !! you quitted midway while making claim.",
@@ -209,5 +212,693 @@
             ]
         },
         "post": "rest/v1/file/fileupload"
+    },
+
+    "er_docForClaim": {
+        "title": "List of documents for Engineering Claim Lodged",
+        "type": "ListItem",
+        "subtitle": "Engineering Claim Lodged Documents",
+        "multi": false,
+        "data": [
+          {
+            "subtitle": "● Original Police Report"
+          },
+          {
+            "subtitle": "● V.D.C/Municipality Muchulka"
+          },
+          {
+            "subtitle": "● Hydrology and meteorology report"
+          },
+          {
+            "subtitle": "● Original Quotation"
+          },
+          {
+            "subtitle": "● Original Claim Bills"
+          },
+          {
+            "subtitle": "● Copy of PAN No. (If Company)"
+          },
+          {
+            "subtitle": "● Copy of BOQ"
+          },
+          {
+            "subtitle": "● Copy of Blue Book (FOR CPM POLICY)"
+          },
+          {
+            "subtitle": "● Copy of Driving License"
+          },
+          {
+            "subtitle": "● Photographs"
+          },
+          {
+            "subtitle": "● Surveyor Report"
+          },
+          {
+            "subtitle": "● Internal payment certificate/Running bills"
+          },
+          {
+            "subtitle": "● Others, if any"
+          }
+    
+        ]
+      },
+
+      "fire_docForClaim": {
+        "title": "List of documents for Fire Claim Lodged",
+        "type": "ListItem",
+        "subtitle": "Fire Claim Lodged Documents",
+        "multi": false,
+        "data": [
+          {
+            "subtitle": "● Original Police Report"
+          },
+          {
+            "subtitle": "● Fire Bridge Report"
+          },
+          {
+            "subtitle": "● V.D.C/Municipality Muchulka"
+          },
+          {
+            "subtitle": "● Copy of house design approval certificate"
+          },
+          {
+            "subtitle": "● Security Report"
+          },
+          {
+            "subtitle": "● Original Quotation"
+          },
+          {
+            "subtitle": "● Copy of PAN No. (If Company)"
+          },
+          {
+            "subtitle": "● Copy of Map"
+          },
+          {
+            "subtitle": "● Copy of Lal Purja"
+          },
+          {
+            "subtitle": "● Photographs"
+          },
+          {
+            "subtitle": "● Surveyor Report"
+          },
+          {
+            "subtitle": "● Others, if any"
+          }
+    
+        ]
+      },
+
+      "theft_docForClaim": {
+        "title": "List of documents for Vehicle Theft Claim Lodged",
+        "type": "ListItem",
+        "subtitle": "Theft Vehicle Claim Lodged Documents",
+        "multi": false,
+        "data": [
+          {
+            "subtitle": "● Original Police Report"
+          },
+          {
+            "subtitle": "● Original Policy Copy"
+          },
+          {
+            "subtitle": "● Original Premium Receipt"
+          },
+          {
+            "subtitle": "● Original Quotation"
+          },
+          {
+            "subtitle": "● Letter of subrogation"
+          },
+          {
+            "subtitle": "● Vehicle Key (2 set)"
+          },
+          {
+            "subtitle": "● Notice of theft in national newspapers"
+          },
+          {
+            "subtitle": "● Original Blue Book"
+          },
+          {
+            "subtitle": "● Copy of Driving License"
+          },
+          {
+            "subtitle": "● Photographs of area of theft"
+          },
+          {
+            "subtitle": "● Rokka Letter of Yatayat"
+          },
+          {
+            "subtitle": "● Others, if any"
+          }
+        ]
+      },
+
+      "marine_docForClaim": {
+        "title": "List of documents for Marine Claim",
+        "type": "ListItem",
+        "subtitle": "Marine Claim Documents",
+        "multi": false,
+        "data": [
+          {
+            "subtitle": "● Original Police Report"
+          },
+          {
+            "subtitle": "● Bill of lading"
+          },
+          {
+            "subtitle": "● Copy of Customs"
+          },
+          {
+            "subtitle": "● Original Claim Bills"
+          },
+          {
+            "subtitle": "● Original Invoice"
+          },
+          {
+            "subtitle": "● Monetary claim made against carrier and their reply"
+          },
+          {
+            "subtitle": "● Carrier Certificate Copy"
+          },
+          {
+            "subtitle": "● Packing List"
+          },
+          {
+            "subtitle": "● L/C Copy"
+          },
+          {
+            "subtitle": "● Consignment Note (Buyer Order Slip)"
+          },
+          {
+            "subtitle": "● Photographs of damaged items"
+          },
+          {
+            "subtitle": "● Copy of PAN No."
+          }
+        ]
+      },
+
+      "pa_docForClaim": {
+        "title": "List of documents for PA/GPA/MD Claim Lodged",
+        "type": "ListItem",
+        "subtitle": "PA/GPA/MD Claim Lodged Documents",
+        "multi": false,
+        "data": [
+          {
+            "subtitle": "● Claim Bills"
+          },
+          {
+            "subtitle": "● Copy of All Hospital Documents"
+          },
+          {
+            "subtitle": "● Copy of Death Certificate (If Death Case)"
+          },
+          {
+            "subtitle": "● Copy of Ghatanasthal Muchulka"
+          },
+          {
+            "subtitle": "● Copy of Autopsy/Postmortem Report (If Death Case)"
+          },
+          {
+            "subtitle": "● Copy of Relationship Certificate (Legal heir certificate)"
+          },
+          {
+            "subtitle": "● Copy of Laas Satgat Purji"
+          },
+          {
+            "subtitle": "● Copy of Citizenship Certificate"
+          },
+          {
+            "subtitle": "● Others, If any"
+          }
+        ]
+      },
+
+      "micro_docForClaim": {
+        "title": "List of documents for Micro Insurance Claim Lodged",
+        "type": "ListItem",
+        "subtitle": "Micro Insurance Claim Documents",
+        "multi": false,
+        "data": [
+          {
+            "subtitle": "● Original Police Report"
+          },
+          {
+            "subtitle": "● Report of related technical person"
+          },
+          {
+            "subtitle": "● Update of losses"
+          },
+          {
+            "subtitle": "● V.D.C/Municipality Muchulka"
+          },
+          {
+            "subtitle": "● Photographs"
+          },
+          {
+            "subtitle": "● Jilla Pasu Sewa Karyalayako Sipharis"
+          },
+          {
+            "subtitle": "● Others, If any"
+          }
+        ]
+      },
+
+      "third_party_docForClaim": {
+        "title": "List of documents for Third Party Property Damaged Claim",
+        "type": "ListItem",
+        "subtitle": "Third Party Property Damaged Claim Documents",
+        "multi": false,
+        "data": [
+          {
+            "subtitle": "● Original Police Report"
+          },
+          {
+            "subtitle": "● Copy of blue book (both vehicle)"
+          },
+          {
+            "subtitle": "● Copy of vehicle fitness (both vehicle)"
+          },
+          {
+            "subtitle": "● Copy of driving license (both vehicle)"
+          },
+          {
+            "subtitle": "● Copy of passenger/load chalan (if Commercial vehicle)"
+          },
+          {
+            "subtitle": "● Statement of driver"
+          },
+          {
+            "subtitle": "● Original claim bills"
+          },
+          {
+            "subtitle": "● Original quotation"
+          },
+          {
+            "subtitle": "● Copy of joint agreement"
+          },
+          {
+            "subtitle": "● Photographs"
+          },
+          {
+            "subtitle": "● Surveyor Report"
+          },
+          {
+            "subtitle": "● Others, if any"
+          }
+        ]
+      },
+
+      "motor_docForClaim": {
+        "title": "List of documents for Motor Policy Claim",
+        "type": "ListItem",
+        "subtitle": "Motor Policy Claim Documents",
+        "multi": false,
+        "data": [
+          {
+            "subtitle": "● Original Police Report"
+          },
+          {
+            "subtitle": "● Copy of Blue Book"
+          },
+          {
+            "subtitle": "● Copy of Vehicle Fitness"
+          },
+          {
+            "subtitle": "● Copy of Route Permit"
+          },
+          {
+            "subtitle": "● Copy of Driving License"
+          },
+          {
+            "subtitle": "● Copy of Passenger/Load Chalan"
+          },
+          {
+            "subtitle": "● Driver Statement"
+          },
+          {
+            "subtitle": "● Original Quotation"
+          },
+          {
+            "subtitle": "● Original bill of repair and replacement of parts"
+          },
+          {
+            "subtitle": "● Photographs of damaged vehicle"
+          },
+          {
+            "subtitle": "● Surveyor Report"
+          },
+          {
+            "subtitle": "● Others, if any"
+          }
+        ]
+      },
+
+      "passenger_docForClaim": {
+        "title": "List of documents for Passenger/Driver/Helper/TP Person Death or Treatment claim",
+        "type": "ListItem",
+        "subtitle": "Passenger/Driver/Helper/TP Person Death or Treatment claim Documents",
+        "multi": false,
+        "data": [
+          {
+            "subtitle": "● Original Police Report"
+          },
+          {
+            "subtitle": "● Copy of Blue Book"
+          },
+          {
+            "subtitle": "● Copy of Vehicle Fitness"
+          },
+          {
+            "subtitle": "● Copy of Driving License"
+          },
+          {
+            "subtitle": "● Copy of Passenger/Load Chalan (if Commercial Vehicle)"
+          },
+          {
+            "subtitle": "● Statement of driver"
+          },
+          {
+            "subtitle": "● Copy of Joint Agreement"
+          },
+          {
+            "subtitle": "● Photographs"
+          },
+          {
+            "subtitle": "● Original Medical Bills"
+          },
+          {
+            "subtitle": "● Copy of Hospital Documents"
+          },
+          {
+            "subtitle": "● Copy of Death Certificate (if Death Case)"
+          },
+          {
+            "subtitle": "● Copy of Ghatanasthal Muchulka"
+          },
+          {
+            "subtitle": "● Copy of Autopsy/Postmortem Report (if Death Case)"
+          },
+          {
+            "subtitle": "● Copy of Relationship Certificate"
+          },
+          {
+            "subtitle": "● Laas Satgat Purji Copy"
+          },
+          {
+            "subtitle": "● Others, if any"
+          }
+        ]
+      },
+
+    
+      "motorClaim": {
+        "type": "formMessageSection",
+        "formType": "fileClaim",
+        "exitMSG": "Oops !! you quitted midway. Please try again",
+        "successMessage": "Request for filing a claim has been successfully submitted.",
+        "form": {
+          "elements": [
+            {
+              "utterances": [
+                {
+                  "message": "Please provide the details asked below to report a claim."
+                }
+              ],
+              "order": "text",
+              "title": "Your Full Name Please ?",
+              "type": "textbox",
+              "placeholder": "Please type your Full Name",
+              "validation": {
+                "type": "name",
+                "error": "Invalid!! Provide 5 or more than 5 characters"
+              },
+              "label": "fullName"
+            },
+            {
+              "order": "number",
+              "title": "Enter your Policy Number ?",
+              "type": "textbox",
+              "placeholder": "Enter Policy Number",
+              "validation": {
+                "type": "PolicyNumber",
+                "error": "Invalid!! Provide 9 digit policy number"
+              },
+              "label": "policyNumber"
+            },
+            {
+              "order": "number",
+              "title": "Enter your Vehicle Number ?",
+              "type": "textbox",
+              "placeholder": "Enter Vehicle Number",
+              "validation": {
+                "type": "requested_value",
+                "error": "Invalid!! Provide 8 digit Agent Code"
+              },
+              "label": "vehicleNumber"
+            },
+            {
+              "order": "number",
+              "title": "Enter your Mobile Number ?",
+              "type": "textbox",
+              "placeholder": "Enter Mobile Number",
+              "validation": {
+                "type": "mobile",
+                "error": "Invalid!! Provide 10 digit MobileNumber"
+              },
+              "label": "mobileNo"
+            },
+            {
+              "order": "text",
+              "title": "Enter your Email Address ?",
+              "type": "textbox",
+              "placeholder": "Enter Email Address",
+              "validation": {
+                "type": "email",
+                "error": "Invalid!! format"
+              },
+              "label": "emailAddress"
+            },
+            {
+              "order": "text",
+              "title": "Date of Loss?",
+              "placeholder": "Please Specify Date of Loss",
+              "type": "date",
+              "label": "DateOfLoss"
+            },
+            {
+              "order": "text",
+              "title": "Place of Loss",
+              "type": "textbox",
+              "placeholder": "Enter Place of Loss",
+              "validation": {
+                "type": "name",
+                "error": "Invalid!!should be more than 5 characters"
+              },
+              "label": "PlaceOfLoss"
+            },
+            {
+              "order": "number",
+              "title": "Estimated Loss",
+              "type": "textbox",
+              "placeholder": "Enter Estimated Loss in digits",
+              "validation": {
+                "type": "requested_value",
+                "error": "Invalid!!"
+              },
+              "label": "EstimatedLoss"
+            },
+            {
+              "order": "cancel",
+              "title": " Do you want to submit your information ?",
+              "type": "submitbutton",
+              "placeholder": "Enter your email",
+              "button": [
+                {
+                  "submit": "Submit",
+                  "type": "submit"
+                },
+                {
+                  "submit": "Cancel",
+                  "type": "cancel"
+                }
+              ]
+            }
+          ]
+        },
+        "post": "/rest/v1/user/interest"
+      },
+
+      "non_motorClaim": {
+        "type": "formMessageSection",
+        "formType": "fileClaim",
+        "exitMSG": "Oops !! you quitted midway. Please try again",
+        "successMessage": "Request for filing a claim has been successfully submitted.",
+        "form": {
+          "elements": [
+            {
+              "utterances": [
+                {
+                  "message": "Please provide the details asked below to report a claim."
+                }
+              ],
+              "order": "text",
+              "title": "Your Full Name Please ?",
+              "type": "textbox",
+              "placeholder": "Please type your Full Name",
+              "validation": {
+                "type": "name",
+                "error": "Invalid!! Provide 5 or more than 5 characters"
+              },
+              "label": "fullName"
+            },
+            {
+              "order": "number",
+              "title": "Enter your Policy Number ?",
+              "type": "textbox",
+              "placeholder": "Enter Policy Number",
+              "validation": {
+                "type": "PolicyNumber",
+                "error": "Invalid!! Provide 9 digit policy number"
+              },
+              "label": "policyNumber"
+            },
+            {
+              "order": "number",
+              "title": "Enter your Mobile Number ?",
+              "type": "textbox",
+              "placeholder": "Enter Mobile Number",
+              "validation": {
+                "type": "mobile",
+                "error": "Invalid!! Provide 10 digit MobileNumber"
+              },
+              "label": "mobileNo"
+            },
+            {
+              "order": "text",
+              "title": "Enter your Email Address ?",
+              "type": "textbox",
+              "placeholder": "Enter Email Address",
+              "validation": {
+                "type": "email",
+                "error": "Invalid!! format"
+              },
+              "label": "emailAddress"
+            },
+            {
+              "order": "text",
+              "title": "Date of Loss?",
+              "placeholder": "Please Specify Date of Loss",
+              "type": "date",
+              "label": "DateOfLoss"
+            },
+            {
+              "order": "text",
+              "title": "Place of Loss",
+              "type": "textbox",
+              "placeholder": "Enter Place of Loss",
+              "validation": {
+                "type": "requested_value",
+                "error": "Invalid!!should be more than 5 characters"
+              },
+              "label": "PlaceOfLoss"
+            },
+            {
+              "order": "number",
+              "title": "Estimated Loss",
+              "type": "textbox",
+              "placeholder": "Enter Estimated Loss in digits",
+              "validation": {
+                "type": "requested_value",
+                "error": "Invalid!!"
+              },
+              "label": "EstimatedLoss"
+            },
+            {
+              "order": "cancel",
+              "title": " Do you want to submit your information ?",
+              "type": "submitbutton",
+              "placeholder": "Enter your email",
+              "button": [
+                {
+                  "submit": "Submit",
+                  "type": "submit"
+                },
+                {
+                  "submit": "Cancel",
+                  "type": "cancel"
+                }
+              ]
+            }
+          ]
+        },
+        "post": "/rest/v1/user/interest"
+      },
+
+
+      
+      "headOffice": {
+        "type": "contact",
+        "title": "Dear customer, following is the contact details of our head office and the social media links.",
+        "backIcon": {
+          "title": "Back",
+          "payload": "menu"
+        },
+        "data": {
+          "Name": "Head Office",
+          "subtitle": "CTC Mall (7th Floor), Sundhara, Kathmandu",
+    
+          "info": [
+            {
+              "title": "Email",
+              "key": "Email",
+              "value": "info@unitedajodinsurance.com"
+            },
+            {
+              "title": "Phone",
+              "key": "Phone",
+              "value": "01-5344013/01-5343072"
+            },
+            {
+              "title": "Toll Free",
+              "key": "toll-free",
+              "value": "16600186496"
+            }
+          ],
+    
+          "facebook": [
+            {
+              "title": "Facebook",
+              "img": "images/banner/facebook.png",
+              "link": "https://www.facebook.com/unitedajodinsurancelimited"
+            },
+            {
+              "title": "Instagram",
+              "img": "images/banner/instagram.png",
+              "link": "https://www.instagram.com/unitedajodinsurancelimited/"
+            },
+            {
+              "title": "LinkedIn",
+              "img": "images/banner/linkedin.png",
+              "link": "https://www.linkedin.com/company/uicnepal/"
+            }
+    
+          ]
+        }
+      }
+
+
+
+
+
     }
-}
+
+      
+
+
+
+
+
+
+

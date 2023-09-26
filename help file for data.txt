@@ -1,0 +1,243 @@
+{
+    "purchaseNow": {
+        "type": "form",
+        "subtype": "Purchase Insurance",
+        "formCategory": {
+            "type": "purchase",
+            "action": "Email_Only"
+        },
+        "action": "/rest/v1/problem",
+        "Mailcatagories": "Underwriting",
+        "emailsubject": "Purchase policy",
+        "lastContactText": "or you can contact our representative Mr. Rama Bohara by calling 9851110241, Also can send mail at rama.bohara@ajodinsurance.com",
+        "title": "Policy Purchase Request",
+        "data": [
+            {
+                "label": "Full name",
+                "placeholder": "Enter full name",
+                "id": "fullName",
+                "type": "text",
+                "validation": {
+                    "required": true
+                }
+            },
+            {
+                "label": "Email Address",
+                "placeholder": "Enter email address",
+                "id": "emailAddress",
+                "type": "email",
+                "validation": {
+                    "required": true,
+                    "email": true
+                }
+            },
+            {
+                "label": "Mobile Number",
+                "placeholder": "Enter mobile number",
+                "id": "mobileNumber",
+                "type": "number",
+                "validation": {
+                    "required": true,
+                    "mobile": true
+                }
+            },
+            {
+                "type": "dropdown",
+                "placeholder": "Choose insurance type",
+                "label": "Insurance type",
+                "id": "droper",
+                "validation": {
+                    "required": true
+                },
+                "data": [
+                    {
+                        "for": "Property Insurance"
+                    },
+                    {
+                        "for": "Motor Vehicle Insurance"
+                    },
+                    {
+                        "for": "Marine / Transit Cargo Insurance"
+                    },
+                    {
+                        "for": "Miscellaneous Insurance"
+                    },
+                    {
+                        "for": "Engineering Insurance"
+                    },
+                    {
+                        "for": "Aviation Insurance"
+                    },
+                    {
+                        "for": "Agriculture Insurance (Cattle & Crops)"
+                    },
+                    {
+                        "for": "Micro Insurance"
+                    }
+                ]
+            }
+        ],
+        "buttons": {
+            "data": [
+                {
+                    "text": "Cancel",
+                    "type": "cancel"
+                },
+                {
+                    "text": "Submit",
+                    "type": "submit"
+                }
+            ]
+        }
+    },
+
+    "purchaseProcedure": {
+        "title": "Step-by-Step guide to insurance issuance",
+        "type": "ListItem",
+        "subtitle": "Insurance Issuance Procedure",
+        "multi": false,
+        "button": [
+            {
+                "title": "Our Products",
+                "payload": "Products"
+            }
+        ],
+        "data": [
+            {
+                "subtitle": "● Selection of Product",
+                "subdata": {
+                    "detail": "When you are going for insurance first you should need to choose the product .There are so many products of insurance company which are mentioned in products section. So you should be confirmed which insurance you are interested in."
+                }
+            },
+            {
+                "subtitle": "● Proposal Form",
+                "subdata": {
+                    "detail": "Every product has its own proposal form so when you select a product you should fill the proposal form where it contains details of the insured person and the insured property."
+                }
+            },
+            {
+                "subtitle": "● Survey of Property",
+                "subdata": {
+                    "detail": "Insurance Companies have their own surveyors who survey the insured properties and verify if they are right or not?"
+                }
+            },
+            {
+                "subtitle": "● Acceptance of Proposal",
+                "subdata": {
+                    "detail": "After all the above processes are done, then the insurance company is ready to accept your proposal. It means the insurance company gets all details about the insured person and properties as well as all the necessary requirements."
+                }
+            },
+            {
+                "subtitle": "● Issue of Debit Note",
+                "subdata": {
+                    "detail": "A debit note is a document used by a vendor to inform the buyer of current debt obligations. So the insurance company also issues the debit note first where all the details of premium, covered risk, contracted time period, and other information are clearly defined."
+                }
+            },
+            {
+                "subtitle": "● Payment",
+                "subdata": {
+                    "detail": "After receiving a debit note, if you are satisfied then you pay the total premium amount to the insurance company, which is called the payment process."
+                }
+            },
+            {
+                "subtitle": "● Issue of Insurance Policy",
+                "subdata": {
+                    "detail": "Finally, the Insurance Company issues an insurance policy, which is generally an integrated contract, includes all forms associated with the agreement between the insured and insurer."
+                }
+            }
+        ]
+    },
+
+    "renew": {
+        "title": "Please select the option below for renewal of Motor insurance or Non Motor Insurance.",
+        "type": "quick_reply",
+        "data": [
+            {
+                "title": "Renew Motor insurance",
+                "payload": "Renew Motor insurance"
+            },
+            {
+                "title": "Renew Non Motor insurance",
+                "payload": "Renew Non Motor insurance"
+            }
+        ]
+    },
+
+    "renewMotor": {
+        "type": "formMessageSection",
+        "formType": "renew",
+        "exitMSG": "Oops !! you quitted midway. Please try again",
+        "successMessage": "Request for renewing a motor insurance has been successfully submitted.",
+        "form": {
+            "elements": [
+
+                {
+                    "utterances": [
+                        {
+                            "message": "Please provide the details asked below to renew policy."
+                        }
+                    ],
+                    "order": "text",
+                    "title": "Your Full Name Please ?",
+                    "type": "textbox",
+                    "placeholder": "Please type your Full Name",
+                    "validation": {
+                        "type": "name",
+                        "error": "Invalid!! Provide 5 or more than 5 characters"
+                    },
+                    "label": "fullName"
+                },
+                {
+                    "order": "number",
+                    "title": "Enter your Policy Number ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Policy Number",
+                    "validation": {
+                        "type": "PolicyNumber",
+                        "error": "Invalid!! Provide 9 digit policy number"
+                    },
+                    "label": "policyNumber"
+                },
+                {
+                    "order": "number",
+                    "title": "Enter your Mobile Number ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Mobile Number",
+                    "validation": {
+                        "type": "mobile",
+                        "error": "Invalid!! Provide 10 digit Mobile Number"
+                    },
+                    "label": "mobileNo"
+                },
+                {
+                    "order": "text",
+                    "title": "Enter your Email Address ?",
+                    "type": "textbox",
+                    "placeholder": "Enter Email Address",
+                    "validation": {
+                        "type": "email",
+                        "error": "Invalid!! format"
+                    },
+                    "label": "emailAddress"
+                },
+                {
+                    "order": "cancel",
+
+                    "title": " Do you want to submit your information ?",
+                    "type": "submitbutton",
+                    "placeholder": "Enter your email",
+                    "button": [
+                    {
+                    "submit": "Submit",
+                    "type": "submit"
+                    },
+                    {
+                  "submit": "Cancel"
+                }]
+            }
+          ]
+        },
+        "post": "/rest/v1/user/interest"
+    
+      }
+}
